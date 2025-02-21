@@ -6,8 +6,8 @@
     "autoCreateDB": true,
     "allowInbox": false,
     "facebookAccount": {
-        "email": "",
-        "password": "",
+        "email": "+84364464590",
+        "password": "Lamhao3010",
         "2FA": ""
     },
     "commandDisabled": [
@@ -23,7 +23,7 @@
     "ZALO_ADMIN": "0364464590",
     "ADMIN_NAME": "Lam Hao ",
     "BOTNAME": "MaxBi",
-    "PREFIX": "/",
+    "PREFIX": "'",
     "ADMINBOT": [
         "100038791595043"
     ],
