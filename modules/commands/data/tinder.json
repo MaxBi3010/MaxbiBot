@@ -1,0 +1,26 @@
+[
+    {
+        "senderID": "100067508386723",
+        "name": "Phạm Hữu Tài",
+        "age": "12",
+        "gender": "Nam",
+        "hobbies": "Sặc cục",
+        "hometown": "Sao hỏa"
+    },
+    {
+        "senderID": "100016757713599",
+        "name": "Phạm Trung Kiên",
+        "age": "16",
+        "gender": "Nam",
+        "hobbies": "bắn fi fai",
+        "hometown": "Mỹ"
+    },
+    {
+        "senderID": "537846897",
+        "name": "Nguyễn Võ Ngọc Hiếu",
+        "age": "10",
+        "gender": "Nam",
+        "hobbies": "Ko biết",
+        "hometown": "CĐ"
+    }
+]

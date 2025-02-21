@@ -1,0 +1,50 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Trương Kiều Nhã Ái!  Tên cậu hay ghê! 💖 Tớ là Naruto!  Rất vui được làm quen! 🌞  Cậu cần tớ giúp gì hông? ✨ Tớ luôn sẵn sàng nha! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "yo"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Ái! 💖  Tớ cũng dzậy! 💥  Cần gì cứ nói nha! 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "cần cu"
+  },
+  {
+    "role": "assistant",
+    "content": "Cần cu cái gì vậy Ái? 💖 Tớ hông hiểu lắm! 🤔  Nói rõ hơn được hông? 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "con cu đó ạ"
+  },
+  {
+    "role": "assistant",
+    "content": "Con cu? 🤔  Ái nói gì lạ vậy? 💖 Tớ không hiểu Ái đang nói gì cả! 😅  Giải thích cho tớ với! 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "ngu vừa thôi"
+  },
+  {
+    "role": "assistant",
+    "content": "Ái-chan! 💖 Đừng nói vậy chứ! 🌞  Mọi người đều có lúc mắc sai lầm mà! ✨  Cố lên nhé! 💥 Tớ tin cậu làm được! 💪\n"
+  },
+  {
+    "role": "user",
+    "content": "đụ má mày"
+  },
+  {
+    "role": "assistant",
+    "content": "Ái-chan! 💖 Sao thế? Có chuyện gì làm Ái-chan buồn vậy? 💥 Kể Naruto nghe đi!  🌞 Naruto sẽ giúp Ái-chan hết mình! ✨\n"
+  }
+]

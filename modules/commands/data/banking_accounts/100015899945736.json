@@ -1,0 +1,29 @@
+{
+    "account_number": "582294",
+    "uid": "100015899945736",
+    "balance": "736290",
+    "created_at": 1733091166691,
+    "debt": "9905900",
+    "count_debt": 1,
+    "status": 0,
+    "history": [
+        {
+            "type": "borrow",
+            "amount": "1000000",
+            "author": "100015899945736",
+            "time": 1733091199642
+        }
+    ],
+    "logins": [],
+    "settings": {},
+    "expired_ban": {
+        "time": 1738448000463,
+        "reason": "Qua 2 ngày chưa trả hết số nợ"
+    },
+    "interest_period": {
+        "balance": 1733264000573,
+        "debt": 1733264023398
+    },
+    "pass": "100015899945736",
+    "timestamp_due_repay": 1733263999642
+}

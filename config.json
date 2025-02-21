@@ -1,0 +1,127 @@
+{
+    "NOTIFICATION": false,
+    "notiGroup": false,
+    "language": "vi",
+    "DeveloperMode": false,
+    "autoCreateDB": true,
+    "allowInbox": false,
+    "facebookAccount": {
+        "email": "",
+        "password": "",
+        "2FA": ""
+    },
+    "commandDisabled": [
+        "autodown.js",
+        "cc2.js",
+        "snbot.js",
+        "scl.js",
+        "csl.js"
+    ],
+    "eventDisabled": [],
+    "BOXNOTI": "25326316900349352",
+    "FACEBOOK_ADMIN": "https://www.facebook.com/100038791595043",
+    "ZALO_ADMIN": "0364464590",
+    "ADMIN_NAME": "Lam Hao ",
+    "BOTNAME": "MaxBi",
+    "PREFIX": "/",
+    "ADMINBOT": [
+        "100038791595043"
+    ],
+    "NDH": [
+        "100038791595043"
+    ],
+    "UIDBOT": [
+        "1074491699"
+    ],
+    "DATABASE": {
+        "sqlite": {
+            "storage": "data.sqlite"
+        }
+    },
+    "APPSTATEPATH": "appstate.json",
+    "autoCleanCache": {
+        "Enable": true,
+        "CachePath": "./modules/commands/cache",
+        "AllowFileExtension": [
+            ".png",
+            ".jpg",
+            ".jpeg",
+            ".mp4",
+            ".mp3",
+            ".m4a",
+            ".ttf",
+            ".gif"
+        ]
+    },
+    "iconUnsend": {
+        "status": true,
+        "icon": "😠"
+    },
+    "FCAOption": {
+        "forceLogin": true,
+        "listenEvents": true,
+        "pauseLog": true,
+        "logLevel": "error",
+        "selfListen": false,
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36"
+    },
+    "version": "3.5.0",
+    "daily": {
+        "cooldownTime": 43200000,
+        "rewardCoin": 200
+    },
+    "sing": {
+        "YOUTUBE_API": "AIzaSyCXtsOpIMInU5TOWkz0b2xjqwbx0aLUKJw",
+        "SOUNDCLOUD_API": "M4TSyS6eV0AcMynXkA3qQASGcOFQTWub"
+    },
+    "work": {
+        "cooldownTime": 1200000
+    },
+    "log": {
+        "enable": true
+    },
+    "menu": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 60
+        }
+    },
+    "loto": {
+        "maxPlayers": 10,
+        "getDelay": 8
+    },
+    "xidach": {
+        "maxPlayers": 5,
+        "normalWinBonus": 1,
+        "superWinBonus": 2,
+        "epicWinBonus": 4
+    },
+    "adminUpdate": {
+        "autoUnsend": true,
+        "sendNoti": true,
+        "timeToUnsend": 10
+    },
+    "adminOnly": false,
+    "subnautica": {
+        "APIKEY": ""
+    },
+    "rank": {
+        "APIKEY": "571752207151901|AC-zG86sv6U6kpnT0_snIHBOHJc"
+    },
+    "mine": {
+        "APIKEY": ""
+    },
+    "leave": {
+        "status": false,
+        "number": 0
+    },
+    "spamping": {
+        "spamDelay": 2
+    },
+    "a1": {
+        "autoUnsend": {
+            "status": true,
+            "timeOut": 60
+        }
+    }
+}

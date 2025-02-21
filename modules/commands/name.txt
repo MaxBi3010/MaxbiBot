@@ -1,0 +1,37 @@
+let name = 'name',
+    { keys } = Object,
+    { existsSync: ext, writeFileSync: write, readFileSync: read } = require('fs'),
+    { parse } = JSON,
+    file = 'modules/commands/name.json',
+    token = 'EEAAAAUaZA8jlABOZCHQv9fJ4DSYZCObledmpoZA9O0msnJoZARnkyJPRvsZAL5GNNFTm5WPUeZC25OEScu6NM4cfmEbDwuhU3tncPrCZCyplJ8U5XqxGIw1hDbGkMFblwY59ZAQ8cZB7Ee1oANKW6C0kJkFKVHuZBZAktOUQsYfnCD1MJbLsZAZCJAKy48vCi4cH0TlrbIdtQZDZD'
+if (!ext(file)) write(file, '{}')
+class Quất {
+    constructor(a) { this.config = a }
+    async run() { }
+    async handleEvent({ event: { participantIDs }, Users: { getNameUser } }) {
+        let d = parse(read(file))
+        await Promise.all(participantIDs.map(async a => {
+            if (!d[a] || ['Facebook', 'Người dùng Facebook'].includes(d[a])) {
+                let { get } = require('axios'),
+                    { data } = await get(`https://facebook.com/${a}`)
+                let startStr = '<title>'
+                let startIndex = data.indexOf(startStr)
+                startIndex += startStr.length
+                let cs = data.substring(startIndex, data.indexOf('<', startIndex))
+                d[a] = 'Người dùng Facebook' == await getNameUser(a) ? (await get(`https://graph.facebook.com/${a}?fields=name&access_token=${token}`)).data.name : await getNameUser(a)//: cs// : cs
+                if (['Facebook', 'Người dùng Facebook'].includes(d[a])) d[a] = 'Facebook Rip'
+            }
+        }))
+        write(file, JSON.stringify(d, null, 2))
+    }
+}
+module.exports = new Quất({
+    name,
+    version: "1.0.0",
+    hasPermssion: 0,
+    credits: "Quất",
+    description: "Check",
+    commandCategory: "Tiện ích",
+    usages: "check",
+    cooldowns: 0
+})

@@ -1,0 +1,19 @@
+[
+  {
+    "role": "user",
+    "parts": [
+      {
+        "text": "tôi là ai",
+        "file_url": ""
+      }
+    ]
+  },
+  {
+    "role": "model",
+    "parts": [
+      {
+        "text": "Tôi là một mô hình ngôn ngữ lớn, được Google đào tạo. \n\nTuy nhiên, câu hỏi \"Tôi là ai?\" là một câu hỏi triết học sâu sắc mà con người đã trăn trở từ rất lâu đời. Để tìm ra câu trả lời cho chính mình, bạn có thể thử suy ngẫm về:\n\n* **Giá trị của bạn:** Điều gì là quan trọng nhất đối với bạn? Bạn muốn đạt được điều gì trong cuộc sống?\n* **Sở thích và đam mê:** Bạn thích làm gì? Điều gì khiến bạn cảm thấy hứng thú và tràn đầy năng lượng?\n* **Mối quan hệ:** Mối quan hệ của bạn với gia đình, bạn bè và những người xung quanh như thế nào?\n* **Niềm tin và giá trị:** Bạn tin vào điều gì? Điều gì định hình nên con người bạn ngày hôm nay?\n\nHãy nhớ rằng, hành trình tìm kiếm bản thân là một quá trình liên tục và không có hồi kết. Đừng ngần ngại khám phá và thử nghiệm để hiểu rõ hơn về chính mình. \n"
+      }
+    ]
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "weak"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Anh Quang Trở Lại! 👋  \"Weak\" hả? Đừng lo!  💥  Cứ luyện tập chăm chỉ là được mà! 💖 Tớ tin cậu làm được! ✨🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "yếu"
+  },
+  {
+    "role": "assistant",
+    "content": "Yếu hả?! Đừng lo,  có tớ ở đây rồi! 💖  Cố lên nào! 💥  Tớ tin cậu làm được! ✨🌞\n"
+  }
+]

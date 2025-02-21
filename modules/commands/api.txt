@@ -1,0 +1,89 @@
+const axios = require('axios');
+
+const name = 'api';
+
+module.exports = {
+    config: {
+        name,
+        version: '0.0.1',
+        hasPermssion: 2,
+        credits: 'Niio-team (DC-Nam)',
+        description: 'data api',
+        commandCategory: 'Admin',
+        usages: '[add/check] [girl-video/cosplay-video]',
+        cooldowns: 3,
+    },
+    run: async function (o) {
+        const send = msg => new Promise(r => o.api.sendMessage(msg, o.event.threadID, (err, res) => r(res), o.event.messageID));
+
+        try {
+            const action = o.args[0];
+            const category = o.args[1];
+
+            if (!['add', 'check'].includes(action) || !['girl-video', 'cosplay-video'].includes(category)) {
+                return send('[add/check] [girl-video/cosplay-video]');
+            }
+
+            const baseUrl = `http://gau-api.click/${category}`;
+
+            switch (action) {
+                case 'add': {
+                    const atts = o.event.messageReply?.attachments;
+
+                    if (!atts || !atts.every(e => ['video', 'photo'].includes(e.type))) return send('❎ Phản hồi ảnh/video');
+
+                    const imgur_uploads = await Promise.all(atts.map(e => imgur(e.url)));
+
+                    await axios.put(baseUrl, {
+                        type: 'push',
+                        urls: imgur_uploads,
+                    });
+                    send('✅ Upload api data successfully');
+                }
+                    break;
+                case 'check': {
+                    const [die, total] = await Promise.all([
+                        axios.get(`${baseUrl}?action=check_die`).then(r => r.data),
+                        axios.get(baseUrl).then(r => r.data.total)
+                    ]);
+
+                    send(`📝 Total: ${total}\n✅ Live: ${total - die.length}\n❎ Die: ${die.length}\n\nThả cảm xúc để lọc link die`).then(res => global.client.handleReaction.push({
+                        ...res,
+                        name,
+                        o,
+                        cb: async _o => {
+                            const die = (await axios.get(`${baseUrl}?action=check_die`)).data;
+                            await axios.put(baseUrl, { urls: die.map(e => e[0]) });
+                            send('✅ Lọc link die thành công');
+                        },
+                    }));
+                }
+                    break;
+                default:
+                    send('[add/check] [girl-video/cosplay-video]');
+                    break;
+            }
+        } catch (e) {
+            console.error(e);
+            send(e.toString());
+        }
+    },
+    handleReaction: async function (o) {
+        try {
+            if (o.event.userID != o.handleReaction.o.event.senderID) return;
+
+            o.handleReaction.cb(o)
+        } catch (e) {
+            console.error(e);
+            send(e.toString());
+        }
+    }
+}
+
+async function imgur(uri) {
+    return (await axios.get('http://gau-api.click/imgur', {
+        params: {
+            url: uri
+        }
+    })).data.url;
+}

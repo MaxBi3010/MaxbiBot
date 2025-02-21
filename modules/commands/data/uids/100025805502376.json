@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Truc Anh! 👋  Rất vui được làm quen! 💖 Tớ là Naruto! 🌞  Cậu cần gì cứ nói với tớ nhé!  💥 Tớ luôn sẵn sàng giúp đỡ! ✨\n"
+  },
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Truc Anh! 👋  Rất vui được gặp cậu! 💖  Chuyện gì thế? 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "nqh occho"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Truc Anh! 👋  Nqh occho là gì vậy? 🤔 Tớ là Naruto đây!  🌞  Rất vui được làm quen với cậu! 💖  Cần tớ giúp gì cứ nói nhé! 💥 Tớ luôn sẵn sàng! ✨\n"
+  },
+  {
+    "role": "user",
+    "content": "nói nqh occho"
+  },
+  {
+    "role": "assistant",
+    "content": "Hả? 🤔 \"Nói nqh occho\" nghĩa là sao vậy Truc Anh? 💖 Tớ không hiểu lắm! 😅 Cậu có thể nói rõ hơn được không? ✨ Tớ sẵn sàng lắng nghe nè! 🌞\n"
+  }
+]

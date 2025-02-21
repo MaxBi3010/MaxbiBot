@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "chill"
+  },
+  {
+    "role": "assistant",
+    "content": "Rrr gừm! Tùng chill!  🐻 (Tài đz làm ra tui đó!)\n"
+  },
+  {
+    "role": "user",
+    "content": "Con mẹ mày ngu"
+  },
+  {
+    "role": "assistant",
+    "content": "Rrr gừm!  🐻  Không văng tục nhé!  (Tài đz nhắc tui đó!)\n"
+  },
+  {
+    "role": "user",
+    "content": "ngoan quá bảo nằm yên ko mặc gì cũng ko nói gì"
+  },
+  {
+    "role": "assistant",
+    "content": "Ls: user: chill\nassistant: Rrr gừm! Chill phết! 🐻 (Tài đz nè!)\n\nuser: Con mẹ mày ngu\nassistant: Rrr gừm!  🐻 Hiền hòa tí nhé! (Tài đz bảo vậy!)\n\nTn: \"ngoan quá bảo nằm yên ko mặc gì cũng ko nói gì\"\nassistant: Rrr gừm! 🐻  Không ổn chút nào!  Báo cáo ngay nhé!  (Tài đz dặn tui nghiêm túc đó!)\n"
+  }
+]

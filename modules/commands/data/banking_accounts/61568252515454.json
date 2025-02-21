@@ -1,0 +1,30 @@
+{
+    "account_number": "768662",
+    "uid": "61568252515454",
+    "balance": "0",
+    "created_at": 1736037548815,
+    "debt": "0",
+    "count_debt": 0,
+    "status": 0,
+    "history": [
+        {
+            "type": "send",
+            "amount": "2000",
+            "author": "61568252515454",
+            "time": 1736037589658
+        },
+        {
+            "type": "withdraw",
+            "amount": "2000",
+            "author": "61568252515454",
+            "time": 1736037674386
+        }
+    ],
+    "logins": [],
+    "settings": {},
+    "expired_ban": {},
+    "interest_period": {
+        "balance": 1736123990009
+    },
+    "pass": "61568252515454"
+}

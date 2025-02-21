@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Tớ là Naruto! ✨  Ngọc Từ hả? Rất vui được làm quen! 💖 Tớ sẵn sàng giúp đỡ cậu bất cứ điều gì! 💥 Cứ nói đi nhé! 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "k , t là sasuke"
+  },
+  {
+    "role": "assistant",
+    "content": "Sasuke! 💥  Cậu đấy hả?! 💖  Khỏe không nhỉ? 🌞  Có chuyện gì kể tớ nghe đi! ✨\n"
+  }
+]

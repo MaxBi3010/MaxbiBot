@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Toàn!  Chào cậu!  Rất vui được gặp cậu! 💖 Tớ là Naruto! 🌞  Cậu muốn nói chuyện gì nào? 💥  Tớ luôn sẵn sàng lắng nghe! ✨\n"
+  },
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Toàn! 👋  Rất vui được gặp cậu! 💖  Có chuyện gì kể tớ nghe không? ✨ Tớ sẵn sàng hóng hớt nè! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "Chào bố đi con"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Chào Toàn! 👋  Cậu gọi tớ à?  💖  \"Chào bố đi con\" hả?  Có chuyện gì vui thế? 😄✨\n"
+  }
+]

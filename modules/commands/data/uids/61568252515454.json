@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "chào cậu"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Chào Gia Bảo!  Tớ là Naruto! Rất vui được làm quen! 💖💥🌞  Có chuyện gì cần tớ giúp không? ✨\n"
+  },
+  {
+    "role": "user",
+    "content": ":))"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Gia Bảo!  Tên cậu hay đấy!  Tớ là Naruto! Rất vui được làm quen! 💖  Cậu đang làm gì thế? 🌞 Tớ đang nghĩ xem hôm nay nên luyện tập Rasengan kiểu gì đây! 💥  ✨\n"
+  }
+]

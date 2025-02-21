@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "a"
+  },
+  {
+    "role": "assistant",
+    "content": "Woah, bức tranh này trông ngầu thật đấy! 💖 Tớ thích cái cách mà màu sắc được sử dụng, tạo nên một bầu không khí bí ẩn. ✨  Cậu thấy sao, Trong? 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "Naruto ngu"
+  },
+  {
+    "role": "assistant",
+    "content": "Tên cậu là Bùi Đức Trọng hả? Tên hay đấy! 💖  Tớ là Naruto!  Rất vui được làm quen! 🌞  Đừng gọi tớ là ngu chứ! 😭  Tớ đang cố gắng hết sức mà! ✨  Cậu muốn nói chuyện gì nào? 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "đó yếu vãi"
+  },
+  {
+    "role": "assistant",
+    "content": "Trời ơi! Đừng nản chí chứ! 💖  Cố lên nào!💥  Mình tin cậu làm được mà! ✨🌞  Cần giúp gì cứ nói nhé! 🗣️\n"
+  }
+]

@@ -1,0 +1,17 @@
+{
+	"Language": "vi",
+	"PreKey": "",
+	"AutoUpdate": false,
+	"MainColor": "#00FFFF",
+	"MainName": "[ LOGIN ]",
+	"Uptime": false,
+	"Config": "default",
+	"Login2Fa": true,
+	"AutoLogin": true,
+	"BroadCast": true,
+	"AuthString": "SD4S XQ32 O2JA WXB3 FUX2 OPJ7 Q7JZ 4R6Z",
+	"EncryptFeature": false,
+	"ResetDataLogin": false,
+	"AutoRestartMinutes": 0,
+	"HTML": {}
+}

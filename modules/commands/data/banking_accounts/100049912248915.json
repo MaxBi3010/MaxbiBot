@@ -1,0 +1,30 @@
+{
+    "account_number": "176219",
+    "uid": "100049912248915",
+    "balance": "6092",
+    "created_at": 1735503666761,
+    "debt": "0",
+    "count_debt": 0,
+    "status": 0,
+    "history": [
+        {
+            "type": "send",
+            "amount": "10000",
+            "author": "100049912248915",
+            "time": 1735503744167
+        },
+        {
+            "type": "withdraw",
+            "amount": "5000",
+            "author": "100049912248915",
+            "time": 1735506014983
+        }
+    ],
+    "logins": [],
+    "settings": {},
+    "expired_ban": {},
+    "interest_period": {
+        "balance": 1737351136508
+    },
+    "pass": "100049912248915"
+}

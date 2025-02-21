@@ -1,0 +1,2117 @@
+[
+    {
+        "threadID": "7642667489186756",
+        "shortcuts": [
+            {
+                "input": "Thanh toán",
+                "output": "Thông Tin Thanh Toán\n\nPHAM HUU TAI\nMb: BOTGAU002\nMomo: 0356562066\n\nGửi Bill Chuyển Khoản Khi Bank Thành Công\n\n⚠️ • Đọc Kỹ STK + Chủ TK Tránh Bank Nhâm",
+                "uri": "s"
+            },
+            {
+                "input": "Anime",
+                "output": "Anime",
+                "uri": "random anime"
+            },
+            {
+                "input": "9",
+                "output": "9",
+                "uri": "random gái"
+            },
+            {
+                "input": "Gái",
+                "output": "Gái nè cu {name}",
+                "uri": "random gái"
+            },
+            {
+                "input_type": "join",
+                "output": "{name} đã vào nhóm",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "7966116966774251",
+        "shortcuts": [
+            {
+                "input": "Luật",
+                "output": "-------Luật BOX-------\n🐔 Không xem mình là nhất\n🐔 Không avt trắng\n🐔 Không gây war/toxic\n🐔 Không tự ai cao \n🐔 Vào biết chào , ra biết xin\n🐔 Hạn chế ra vẻ\n🐔 Gửi ảnh sexy 5s thu hồi\n🐔 Tôn trọng tất cả mn\n\n⚠️ Hack/Scam/Buff kick thẳng\n⚠️ Được phép tag all rủ game \n⚠️ 1 tuần lọc cá cảnh, thợ lặn",
+                "uri": "https://files.catbox.moe/7y6oyj.jpg"
+            },
+            {
+                "input_type": "join",
+                "output": "‎‎‎‎Chào {name}\nTvm Gth + show acc\nSet bd : 🐥•+( Tên )+(NămSinh)\n____________________________\n🐣 Box đươc phép tag all @all nếu box không thấy ai...\n➡️ Do mọi nguời hay tắt thông báo\n⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️⬇️\n( CÓ PHIỀN THÌ SHIN THAY MẶT XIN LỖI ĐÃ LÀM PHIỀN )",
+                "uri": "https://files.catbox.moe/ox29hy.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "7649045655211559",
+        "shortcuts": [
+            {
+                "input": "Tvm",
+                "output": "Tvm gt+set bd 𝑨𝒓𝒌 •tên+năm sinh+show acc",
+                "uri": "s"
+            },
+            {
+                "input": "Kí tự",
+                "output": "𝑨𝒓𝒌 •",
+                "uri": "s"
+            },
+            {
+                "input_type": "leave",
+                "output": "{name} {trangThai} {time}",
+                "uri": "s"
+            },
+            {
+                "input": "Tvc",
+                "output": "Tvc đã out/kick ko đc thêm lại",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "Chào {name} bạn là thành viên thứ {soThanhVien} của box!\nHãy tt đầy đủ để không bị lọc nhé!",
+                "uri": "s"
+            },
+            {
+                "output": "{name} tag cl",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "Luật",
+                "output": "Luật box 𝑨𝒓𝒌 𝑳𝑸𝑴:\n-ko gây war(next thẳng).\n-ko gửi 18+(next thẳng).\n-vào box set bd(ko set kick).\n-ko gửi tài xỉu +cờ bạc.\n-cấm out chùa.\n-ko tang all ngoài qtv ( tag khi gl, ko tag vde khác)\n-ko bơ các tvm+cũ.\n-có chuyện ib riêng qtv.\n-cấm spam tn / icon(bot kick).\n-qtv ko lạm quyền , kick ai hỏi qtv khác( trừ khi out chùa).\n-ko fake tuổi.\n-trẩu ->kick\nNhắc 2 lần=kick",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "6917755774973563",
+        "shortcuts": [
+            {
+                "input": "Gái",
+                "output": "Video gái nè",
+                "uri": "random gái"
+            },
+            {
+                "input": "Anime",
+                "output": "Anime",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "6878534095548019",
+        "shortcuts": [
+            {
+                "input_type": "autosend",
+                "output": "Cơm đi mấy cu",
+                "hours": "11:53:00",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "7954145911272518",
+        "shortcuts": [
+            {
+                "input": "Sy",
+                "output": "https://alive-bowl-935.notion.site/SOURCE-DAILY-2da308a9539e46bb84e52edff12f2b4b?pvs=4",
+                "uri": "s"
+            },
+            {
+                "input": "Sdr",
+                "output": "https://drive.google.com/drive/folders/1aBPCUKV40Mgj851FQaR_TVtk8KUCbivq",
+                "uri": "s"
+            },
+            {
+                "input": "Rule",
+                "output": "🫶🏻 LUẬT BOX 📌\n👉 Không được tự ý chỉnh sửa thông tin group chat ( tên, avatar, chủ đề, biểu tượng ).\n👉 Hòa đồng, vui vẻ, không chửi nhau hay gây sự.\n👉 Hạn chế nhắc tên idol khác trong group.\n👉 Cần có sự tôn trong giữa thành viên cũ và thành viên mới.\n👉 Hạn chế văng tục trong nhóm.\n👉 Không tuyển cá cảnh, nên rất mong mọi người sẽ tương tác tích cực.\n👉 Hạn chế nói nhảm, nói xàm, nói những chuyện cá nhân hay những chuyện không thật sự liên quan đến chủ đề mà group muốn hướng tới.\n👉 TUYỆT ĐỐI KHÔNG SPAM dưới mọi hình thức.\n👉 Group dành cho người Việt tham gia, TUYỆT ĐỐI KHÔNG sử dụng những ngôn ngữ khác ngoài tiếng Việt.\n👉 Mọi người bình đẳng, nên tuyệt đối không kì thị hay lăng mạ người khác ( PHÁT HIỆN = KICK THẲNG ).",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "7519651594723638",
+        "shortcuts": [
+            {
+                "output": "Tag con cặc nè {name}",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "Anime",
+                "output": "Anime nè cu",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "join",
+                "output": "{name} cút mẹ mày đi",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "7147573945331968",
+        "shortcuts": [
+            {
+                "input": "girl",
+                "output": "video girl",
+                "uri": "random gái"
+            },
+            {
+                "input": "Anime",
+                "output": "video anime",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "join",
+                "output": "{name} đã vào nhóm",
+                "uri": "random anime"
+            },
+            {
+                "input": "a1",
+                "output": "video gái",
+                "uri": "random gái"
+            },
+            {
+                "input": "a2",
+                "output": "anime",
+                "uri": "random anime"
+            },
+            {
+                "input": "o1",
+                "output": "anime",
+                "uri": "random anime"
+            },
+            {
+                "input": "🐣",
+                "output": "luật của nhóm ✧˖°ᴅᴜᴄᴋs ʜᴏᴜsᴇ.˚༘✿✿.",
+                "uri": "https://files.catbox.moe/u90k2z.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "7312038128911928",
+        "shortcuts": []
+    },
+    {
+        "threadID": "6686795258066000",
+        "shortcuts": [
+            {
+                "input": "Tvm",
+                "output": "Chào Mừng Bạn Đến Với Blue Shirt Của Chúng Tôi💗\n\n•   TVM vào box giới thiệu bản thân  + ảnh bìa/tcn game của mình ✨\n\n• Box sẽ tương tác liên tục trong ngày bạn nên cân nhắc việc tắt thông báo để tránh ảnh hưởng đến cuộc sống sinh hoạt của mình nha⭐\n\n•  Chú ý tt thường xuyên với box nhaaa🥰\n\n•  Box hay chụp ảnh vào đu trend nên hãy kb với tv và boss/qtv🍊\n\n=> ig Boss : ㅤᴊᴇꜱꜱᴇㅤᔆˡᵘʳ",
+                "uri": "s"
+            },
+            {
+                "input": "Tên box",
+                "output": "ＢＬＵＥ   ＳＨＩＲＴ\nʙʟᴜᴇsʜɪʀᴛ",
+                "uri": "s"
+            },
+            {
+                "input": "Tiểu sử game",
+                "output": "• Để tiểu sử tên box nha mn\n___________________________\n* Còn nhiều chỗ trống thì để\n ＢＬＵＥ   ＳＨＩＲＴ\n* Ít thì để\nʙʟᴜᴇsʜɪʀᴛ",
+                "uri": "s"
+            },
+            {
+                "input": "Zalo",
+                "output": "https://zalo.me/g/syvtht039",
+                "uri": "https://files.catbox.moe/7feo2a.jpeg"
+            },
+            {
+                "input": "Dis",
+                "output": "https://discord.gg/psSqqeTw",
+                "uri": "https://files.catbox.moe/l298pr.jpg"
+            },
+            {
+                "input": "Hi",
+                "output": "Thay Mặt Box \n• Bot Chuche Chào Bồ Yêu {name} Nha 💗 \n• Chúc Bồ Yêu Một Ngày Vui Vẻ Nè🌷",
+                "uri": "https://files.catbox.moe/5405mg.jpg"
+            },
+            {
+                "input": "Hii",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/80sa6n.jpg"
+            },
+            {
+                "input": "Helo",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/3mxy7o.jpg"
+            },
+            {
+                "input": "Hello",
+                "output": "Thay Mặt Box \n• Bot Chuche Chào Bồ Yêu {name} Nha 💗 \n• Chúc Bồ Yêu Một Ngày Vui Vẻ Nè🌷",
+                "uri": "https://files.catbox.moe/upu2wh.jpg"
+            },
+            {
+                "input": "Heloo",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/qlaws4.jpg"
+            },
+            {
+                "input": "Hai",
+                "output": "Thay Mặt Box \n• Bot Chuche Chào Bồ Yêu {name} Nha 💗 \n• Chúc Bồ Yêu Một Ngày Vui Vẻ Nè🌷",
+                "uri": "https://files.catbox.moe/7g4ptl.jpg"
+            },
+            {
+                "input": "Hé lô",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/ujrqnx.jpg"
+            },
+            {
+                "input": "Lô",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/t5cl06.jpg"
+            },
+            {
+                "input": "Hí",
+                "output": "Thay Mặt Box \n• Bot Chuche Chào Bồ Yêu {name} Nha 💗 \n• Chúc Bồ Yêu Một Ngày Vui Vẻ Nè🌷",
+                "uri": "https://files.catbox.moe/blmaah.jpg"
+            },
+            {
+                "input": "Hú",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/8fziya.jpg"
+            },
+            {
+                "input": "Xin chào",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/o2vn1h.jpg"
+            },
+            {
+                "input": "Hi mn",
+                "output": "Thay Mặt Box \n• Bot Chuche Chào Bồ Yêu {name} Nha 💗 \n• Chúc Bồ Yêu Một Ngày Vui Vẻ Nè🌷",
+                "uri": "https://files.catbox.moe/5rym5u.jpeg"
+            },
+            {
+                "input": "Hiii",
+                "output": "Chào bbi {name} 🌷💗\n  Chúc bbi một ngày vui vẻ🍊",
+                "uri": "https://files.catbox.moe/5v3swm.jpg"
+            },
+            {
+                "input": "Boss",
+                "output": "ㅤᴊᴇꜱꜱᴇㅤᔆˡᵘʳ ㅤ",
+                "uri": "s"
+            },
+            {
+                "output": "𝗸𝙤 𝙧𝙚𝙥 𝙫𝙪𝙞 𝙡𝙤𝙣𝙜: tag qtv khác.\n\n(๑•̀ㅂ•́)و <on 24/7 trừ lúc off>",
+                "uri": "https://files.catbox.moe/1tidz6.jpg",
+                "input_type": "tag",
+                "tag_id": "100082515705366"
+            },
+            {
+                "input": "Anime",
+                "output": "Nè",
+                "uri": "random anime"
+            },
+            {
+                "output": "Bun nghe, Bun nghe bạn yeu gọi gì 🌷",
+                "uri": "https://files.catbox.moe/ili7b6.jpg",
+                "input_type": "tag",
+                "tag_id": "100076148227368"
+            },
+            {
+                "input": "Nô eo",
+                "output": "Nô éo",
+                "uri": "https://files.catbox.moe/d2bslr.mp4"
+            },
+            {
+                "output": "𝗸𝙤 𝙧𝙚𝙥 𝙫𝙪𝙞 𝙡𝙤𝙣𝙜: tag qtv khác.\n\n(๑•̀ㅂ•́)و <on 24/7 trừ lúc off>",
+                "uri": "https://files.catbox.moe/9qxpfx.jpg",
+                "input_type": "tag",
+                "tag_id": "100067749463844"
+            },
+            {
+                "output": "𝗸𝙤 𝙧𝙚𝙥 𝙫𝙪𝙞 𝙡𝙤𝙣𝙜: tag qtv khác.\n\n(๑•̀ㅂ•́)و <on 24/7 trừ lúc off>",
+                "uri": "https://files.catbox.moe/zq6vb4.jpg",
+                "input_type": "tag",
+                "tag_id": "100091435879917"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Buổi sáng tốt lành 🎀",
+                "hours": "05:30:00",
+                "uri": "https://files.catbox.moe/61fwpj.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*Dậy Sớm để thành công*",
+                "hours": "08:15:00",
+                "uri": "https://files.catbox.moe/gzzi4o.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*Chiều nay bạn thế nàoo*",
+                "hours": "15:30:30",
+                "uri": "https://files.catbox.moe/p1mq8d.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*Buổi trưa vui vẻ nò💌*",
+                "hours": "11:30:00",
+                "uri": "https://files.catbox.moe/etsgep.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*nhớ bấm nút nồi cơm🤣*",
+                "hours": "10:10:00",
+                "uri": "https://files.catbox.moe/nm8qzp.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*Buổi tối vui vẻ 😻*",
+                "hours": "17:30:00",
+                "uri": "https://files.catbox.moe/1o7wos.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "*chúc ngủ ngon💤*",
+                "hours": "22:00:00",
+                "uri": "https://files.catbox.moe/wjdl7c.mp4"
+            },
+            {
+                "input_type": "join",
+                "output": "❗Xin chào {name}!📣 \n• Bạn là tv thứ:  {soThanhVien} của clan\n\n🍓Chào mừng bạn đến với clan \n{nameThread}\n\n{link}\nDo {authorName} thêm vào\n\nHãy giới thiệu bản thân💗\n (tên và tuổi) \n  {time}\n___________________________\nCẢM ƠN BẠN ĐÃ THAM GIA CLAN CHÚNG MÌNH❤\n chúc bạn một ngày vui vẻ",
+                "uri": "s"
+            },
+            {
+                "input": ".",
+                "output": "🎀\n______________________________\nVào box không cần set biệt danh mes( qtv set cho )\nNghe theo hướng dẫn của qtv \n• cố gắng hòa nhập với clan \n• có vấn đề gì có thể ib boss hoặc qtv sẽ được giúp đỡ tận tình nha\n• nói chuyện văn minh nghiêm tốn ko xúc phạm người khác\n• tham gia nhóm zalo của clan để xem ảnh vid,đu trend \n• tham gia nhóm discord để giao lưu nói chuyện\n• ko cần đổi tên game chỉ cần để tiểu sử game tên box\n• clan có kí tự để đổi tên nếu bạn muốn thì có thể kêu qtv giúp đổi\n• nhớ tương tác thường xuyên\n• THAM GIA NHÓM THÔNG BÁO ĐỂ THEO DÕI HOẠT ĐỘNG CỦA CLAN TRÁNH BỊ TRÔI TIN NHẮN ( KO NHẮN VÀO NHÓM THÔNG BÁO)",
+                "uri": "s"
+            },
+            {
+                "input": "Tên game qtv",
+                "output": "📌~ Tên game Qtv\n #Boss\nㅤᴏᴄᴇᴀɴㅤᔆˡᵘʳㅤ\n\n #QTV\nㅤʟɪɢʜᴛㅤᔆˡᵘʳ ㅤ\nㅤᴡʏɴɴㅤᔆˡᵘʳ ㅤ\nㅤʙᴜɴɴʏㅤᔆˡᵘʳㅤ\nㅤʙɪɴㅤᔆˡᵘʳ",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8201910669832758",
+        "shortcuts": [
+            {
+                "input": "Anime",
+                "output": "Anime",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "7438757242885461",
+        "shortcuts": [
+            {
+                "input": "Tvm",
+                "output": "Hi tvm vào box gthieu , show acc , set bdanh kèm kí tự như sau\n『𝙏𝙔𝙇𝙇』Tên ♡",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "🔆___Xin chào {name} đã đến với {nameThread}___🔆\n⭐️Link Facebook: {link}💫\n________________________\n💟Bạn chính là con vợ thứ {soThanhVien} của chủ box🫵🏻\n🌷Bạn được thêm bởi {authorName}🌸\n⭐️Link Facebook: {link}💫\n________________________\n⏰Thời gian bạn trở thành ghệ của chủ box: {time}\n________________________\n🐣Vào nhóm nhớ giới thiệu, show acc và set biệt danh💍",
+                "uri": "s"
+            },
+            {
+                "input": "Bot",
+                "output": "Dạ",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8189245864438021",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "[ Thành Viên Tham Gia  ]\n──────────────────\n👤 Name: {name}\n🔗 Link: {link}\n📝 Bạn là thành viên thứ {soThanhVien} của nhóm: {nameThread}\n🔗 Link: {link}\n──────────────────\n⏰ Time: {time}",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "25211436038471019",
+        "shortcuts": [
+            {
+                "input": "Luật",
+                "output": "💞ᒪᑌẬ丅ᗷᗝ᙭💞\n❤️Không bơ người khác, đặc biệt TVM\n❤️Biết xin vào phải biết xin ra.\n❤️Không gây war.\n❤️Có vấn đề gì thì liên hệ qtv \n❤️Không spam link 18+, quảng cáo\n❤️Chăm tt, không cá cảnh\n❤️không tag all ngoài qtv\n💗💗Chúc bạn vào box vv💗💗",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "🔆___Xin chào {name} đã đến với {nameThread}___🔆\n⭐️Link Facebook: {link}💫\n__________________________\n💟Bạn chính là con vợ thứ {soThanhVien} của chủ box🫵🏻\n🌷Bạn được thêm bởi {authorName}🌸\n⭐️Link Facebook: {link}💫\n__________________________\n⏰Thời gian bạn trở thành ghệ của chủ box: {time}\n__________________________\n🐣Vào nhóm nhớ giới thiệu, show acc và set biệt danh💍",
+                "uri": "s"
+            },
+            {
+                "input": "Kí tự",
+                "output": "『ʟιoɴ』",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Chúc mọi người ngủ ngon | Mọi người ngủ ngon",
+                "hours": "00:00:00",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Chúc mọi người buổi sáng vui vẻ | Chúc mọi người một buổi sáng tốt lành | Mọi người vui vẻ ngày mới nhé",
+                "hours": "06:00:00",
+                "uri": "random anime"
+            },
+            {
+                "input": "Bot lên mẹ biểu",
+                "output": "dạ",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "7751359158255409",
+        "shortcuts": [
+            {
+                "input": "tvm",
+                "output": "gt set bdanh Embéw tên ( năm sinh ) ngày giao lưu",
+                "uri": "s"
+            },
+            {
+                "input": "bd",
+                "output": "bdanh Embéw tên ( năm sinh ) ngày giao lưu",
+                "uri": "s"
+            },
+            {
+                "input": "bdanh",
+                "output": "bdanh Embéw tên ( năm sinh )",
+                "uri": "s"
+            },
+            {
+                "input": "id",
+                "output": "5149043366",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "24275766418734722",
+        "shortcuts": [
+            {
+                "input": "anime",
+                "output": "video anime",
+                "uri": "random anime"
+            },
+            {
+                "input": "gái",
+                "output": "video gái",
+                "uri": "random gái"
+            },
+            {
+                "input": "123",
+                "output": "Xin chào",
+                "uri": "https://files.catbox.moe/jhd3wn.mp4"
+            },
+            {
+                "input": "Anime",
+                "output": "Luffy",
+                "uri": "https://files.catbox.moe/orywqy.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "7052508898130374",
+        "shortcuts": [
+            {
+                "input": "gái",
+                "output": "em minơ của Gia Meo 😋",
+                "uri": "random gái"
+            },
+            {
+                "input": "anime",
+                "output": "🍃",
+                "uri": "random anime"
+            },
+            {
+                "input": "luật",
+                "output": "1. - 𝙆𝙖𝙧𝙖𝙣💤 không phân biệt giàu nghèo ai cũng có thể vào .\n2. - Chúng tớ sẽ có mở event cho các thành viên 𝙆𝙖𝙧𝙖𝙣💤 tham gia .\n3. - Chúng tớ cũng thích đu trend nên nếu bạn muốn đu nhưng không có ai thì bảo với chúng tớ .\n4. - Bạn không tương tác được hoặc bận việc gì thì hãy để đằng cuối biệt danh là [ off ] hoặc có thể nói với QTV\n5. - Cấm fake ảnh , tuổi hay tự ý tag all\n6. - Nếu bạn out / rời nhóm thì hãy nói với QTV\n7. - Nếu bạn gây ra war / drama mà bạn không chịu trách nhiệm thì xin chúc mừng bạn bị kick .\n8. - 𝙆𝙖𝙧𝙖𝙣💤 chỉ nhận từ 2011 trở lên \n9. - khi vào box bắt buộc phải set biệt danh và tham gia vào gr Facebook của nhóm.\n10. - khi đi ttv hay thêm bạn bè vào 𝙆𝙖𝙧𝙖𝙣💤 thì phải thông qua QTV phê duyệt\n11. - Cấm nhắc về game khác trong box,nếu nhắc kick thẳng tay k thắc mắc\n12. - Nếu bạn tham gia vào 𝙆𝙖𝙧𝙖𝙣💤 thì inbox với facebook :\nBé Cá [ QTV ]\nHien Nguyen [ QTV ]\n박해민 [ QTV ]\nLâm Thiên Ngọc [ QTV ]\n𝙆𝙖𝙧𝙖𝙣💤 luôn chào đón các bạn trong thời gian làm việc",
+                "uri": "random anime"
+            },
+            {
+                "input": "karan",
+                "output": "https://www.facebook.com/groups/3333231160301028/?ref=share_group_link",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "join",
+                "output": "‎→ •[🐻] 𝐇𝐞𝐥𝐥𝐨 𝐜𝐨𝐧 vợ {name} 𝙩𝙤̛́𝙞 𝙫𝙤̛́𝙞 𝙣𝙝𝙤́𝙢 𝙆𝙖𝙧𝙖𝙣 💤 𝙣𝟭\n👉𝐕à𝐨 𝐧𝐡ớ 𝐭ươ𝐧𝐠 𝐭á𝐜 𝐧𝐡𝐢ề𝐮 𝐧𝐡é , 𝐤𝐡ô𝐧𝐠 𝐥à ă𝐧 𝐤𝐢𝐜𝐤 đấ𝐲 😻✨",
+                "uri": "random gái"
+            },
+            {
+                "output": "{name} mày tag cái chóa gì?",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "bd",
+                "output": "『𝙠』Name game + năm sinh ✦",
+                "uri": "s"
+            },
+            {
+                "input": "@Cá Dangiu",
+                "output": "ㅤㅤtớ nghe nè bbiㅤㅤ",
+                "uri": "https://files.catbox.moe/9sa5cq.jpg"
+            },
+            {
+                "input": "meo",
+                "output": "ㅤㅤkêu Meo chi đấy bbi 🐾 ㅤㅤ",
+                "uri": "https://files.catbox.moe/7rdnf3.mp4"
+            },
+            {
+                "input": "@Hien Nguyen",
+                "output": "òm to rứa",
+                "uri": "https://files.catbox.moe/11o71u.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "25875020935479286",
+        "shortcuts": [
+            {
+                "input": "Sm",
+                "output": "💃",
+                "uri": "https://files.catbox.moe/eectxl.mp4"
+            },
+            {
+                "input_type": "join",
+                "output": "• Hello {name} đến với ⋆˚࿔ 𝐌𝐈𝐓𝐙 𝜗𝜚˚⋆\n•Vào nhớ tương tác nhiều nhe, không là ăn kick",
+                "uri": "random gái"
+            },
+            {
+                "input": "Zổ",
+                "output": "💃",
+                "uri": "https://files.catbox.moe/beu3ro.mp4"
+            },
+            {
+                "input": "Đội văn nghệ",
+                "output": "🕺🕺",
+                "uri": "https://files.catbox.moe/l09qrc.mp4"
+            },
+            {
+                "input": "Wen phù thủy",
+                "output": "Oii",
+                "uri": "https://files.catbox.moe/an0007.jpg"
+            },
+            {
+                "input": "Ma rí à",
+                "output": "Trọc roi",
+                "uri": "https://files.catbox.moe/qp15zh.jpg"
+            },
+            {
+                "input": "Đội văn nghệ ép phai",
+                "output": "🐒 🍌 🐒 🐒 🦦",
+                "uri": "https://files.catbox.moe/sbdqu4.mp4"
+            },
+            {
+                "input": "Hân",
+                "output": "nói cô à",
+                "uri": "https://files.catbox.moe/hemmv6.jpg"
+            },
+            {
+                "input": "Khỉ",
+                "output": "Khỉ đây",
+                "uri": "https://files.catbox.moe/y3e3z8.jpg"
+            },
+            {
+                "input": "Set",
+                "output": "⌗ Tên +Năm sinh  ⊹ ࣪ ˖",
+                "uri": "s"
+            },
+            {
+                "input": "Linda",
+                "output": "mê cuu nè mấy em",
+                "uri": "https://files.catbox.moe/yhn15d.jpg"
+            },
+            {
+                "input": "Luật",
+                "output": "Đọc đi k đọc búng cu",
+                "uri": "https://files.catbox.moe/6ieocu.jpg"
+            },
+            {
+                "input": "Đội nhảy đâu",
+                "output": "Đâyy",
+                "uri": "https://files.catbox.moe/cjhd7w.mp4"
+            },
+            {
+                "input": "gh",
+                "output": "gh là con c",
+                "uri": "https://files.catbox.moe/xfg7x1.jpg"
+            },
+            {
+                "input": "wen",
+                "output": ">:((",
+                "uri": "https://files.catbox.moe/650c78.jpg"
+            },
+            {
+                "input": "chip",
+                "output": "daa",
+                "uri": "https://files.catbox.moe/mga93p.mp4"
+            }
+        ]
+    },
+    {
+        "threadID": "6506743799374555",
+        "shortcuts": [
+            {
+                "input": "Kí tự",
+                "output": "HS・ TÊN و",
+                "uri": "s"
+            },
+            {
+                "input": "Vidu",
+                "output": "HS・ TÊN و \nSet bd đừng thiếu dấu đằng sau nhé\nTên vidu: HS・ BbiKemو",
+                "uri": "s"
+            },
+            {
+                "input": "Bài ttv",
+                "output": "🌷Xin chào m.n mk là HS・Kem و 🔥 của clan Hungry Shark. Clan thuộc khu vực Vũng Tàu nên cũng mong các tv Vũng Tàu vô\n✨Xin Phép Lên Đây Tuyển Thành Viên✨    \n ‼️YÊU CẦU  Hungry Shark‼️\n     • Tuyển mobile,ipad+Giả Lập 📱\n     • Đổi tên theo kí tự HS・Tên و  sau 7-14 ngày gl\n     • Nhận tv :-  tuổi k12-95\n                       - Nữ auto nhận\n                   - Nam:1./100trận\n                   - Nữ:0 cần kda\nCả LGBT cũng nhận nhé\n     • Chăm tt box chat,hòa đồng với m.n trong clan\n📌1 Số Lưu Ý Của HS\n  🚫 Không Hổ Trợ Thẻ Đổi Tên.\n  🚫Không Tuyển Cá Cảnh \n  🚫Không Gây War Ngoài Clan Và Trong Clan\n  🚫 Không Tuyển Người Ở 2 Clan\n  🚫 Không sử dụng hack,mod,phần mềm thứ 3\n  🚫Không Dùng Acc Clone\n🚫 xin nghỉ cus clan phải báo trước  ( off quá 3 lần ko lý do kick)\n  👉🏻 Out clan phải xin phép,off quá 5 ngày phải báo với qtv không lý do sẽ kick\n😍Một Số Quyền Lợi Khi Vào Clan \n👑 •Về với Clanđể được yêu thương\n      •Được Gl Vv\n      • Khi Vào box chat Bạn có thể chat vs mn và rủ vs mn chs 1 số tựa game như fo4,lq,pubg,valorant,lienminh,.........\n#Ttv\n#mongadduyet",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "26319955534262411",
+        "shortcuts": [
+            {
+                "input": "🐳",
+                "output": "MQ・",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "‎Halo cục cưng {name}, fen là thành viên {soThanhVien} cụa {nameThread}\n\nGt + show + setname nhé!\nKí tự MQ・+ name + năm sinh + 🐳(nếu zô chính thức) + gl...(nếu zô gl tình đồng chí)",
+                "uri": "https://files.catbox.moe/54q7m7.jpg"
+            },
+            {
+                "input": "🦀",
+                "output": "Link box thông báo cho thành viên siu chính thức🙉\nhttps://m.me/j/AbZMowE-sDKIAs5H/",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Sáng zui zẻ nha mấy keoo",
+                "hours": "10:00:00",
+                "uri": "s"
+            },
+            {
+                "input": "🐬",
+                "output": "Vào hội search: MinnQueen 1 - xong yêu cầu zô\nOr\nID: 51571361276 - MQ・MânĐìn - Tìm acc xong vào đấy check hội🐷",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "25073918048888999",
+        "shortcuts": [
+            {
+                "input": "ID vào hội",
+                "output": "51982534104",
+                "uri": "s"
+            },
+            {
+                "input": "@Nguyen Thi Thu Thao",
+                "output": "Mỹ lữ chân dài của eMin😚",
+                "uri": "https://files.catbox.moe/o3tgpj.mp4"
+            }
+        ]
+    },
+    {
+        "threadID": "24017560911221261",
+        "shortcuts": [
+            {
+                "input": "1",
+                "output": "1",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "25626261790320451",
+        "shortcuts": [
+            {
+                "input": "Tvm",
+                "output": "Tên ingame┊Năm Sinh",
+                "uri": "s"
+            },
+            {
+                "input": "Nách",
+                "output": "Nách của quân & hoàng nè",
+                "uri": "https://files.catbox.moe/0pdmwj.jpg"
+            },
+            {
+                "input": "Labubu",
+                "output": "Labubu made in táo",
+                "uri": "https://files.catbox.moe/uxkhje.jpg"
+            },
+            {
+                "input": "Hi",
+                "output": "Cắn lồn m h",
+                "uri": "https://files.catbox.moe/ej7e7z.jpg"
+            },
+            {
+                "input": "Lồn",
+                "output": "Đụ Mẹ Khó Chịu Dô Cùng",
+                "uri": "https://files.catbox.moe/2u7kju.jpg"
+            },
+            {
+                "input": "Thỏ",
+                "output": "Box l t ghét tụi bây",
+                "uri": "https://files.catbox.moe/0oc4t6.jpg"
+            },
+            {
+                "input": "Bú",
+                "output": "Bú vội 👉🏻👈🏻",
+                "uri": "https://files.catbox.moe/0y53aq.jpg"
+            },
+            {
+                "input": "Mew",
+                "output": "Con mèo ngu ngốc đáng yêu cute pho mai que nè",
+                "uri": "https://files.catbox.moe/w72n9g.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "8211472768897604",
+        "shortcuts": []
+    },
+    {
+        "threadID": "7641309185888356",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "🔆___Xin chào {name} đã đến với {nameThread}___🔆\n💟Bạn chính là con vợ thứ {soThanhVien} của chủ box🫵🏻\n🌷Bạn được thêm bởi {authorName}🌸\n⭐️Link Facebook: {link}💫\n______________________________\n⏰Thời gian bạn trở thành ghệ của chủ box: {time}\n______________________________\n🐣Vào nhóm nhớ giới thiệu, show acc và set biệt danh💍",
+                "uri": "s"
+            },
+            {
+                "input": "Luật",
+                "output": "1. YÊU CẦU CHƠI GAME KHÔNG QUAN TRỌNG THẲNG THUA, VUI LÀ CHÍNH\n2. KHÔNG GIỚI HẠN ĐỘ TUỔI, BẬC RANK\n3. KHÔNG GÂY WAR, TRÁNH SOLO KILL VÕ MỒM THÌ CHẾT DỞ\n4. VÔ BOX LƯU Ý NHỚ GIỚI THIỆU VÀ SET BIỆT DANH CÓ KÝ TỰ \"『ѕɢ』” CÙNG VỚI TÊN KÈM NĂM SINH\n5. BOX TẠO RA ĐỂ KIẾM SET LOVE HOẶC KIỂM NGƯỜI YÊU NẾU BẠN ĐỦ KHẢ NĂNG VÀ ĐỦ CAN ĐẢM\n6. NGHIÊM CẤM BƠ THÀNH VIÊN, NÓI CHUYỆN ĐỤNG NHAU TÍ CŨNG ĐƯỢC CHỨ ĐỪNG BƠ NHAU\n7. TÔN TRỌNG QTV, THÀNH VIÊN CŨ CŨNG NHƯ KÍNH LÃO ĐẮC THỌ, KÍNH TRÊN NHƯỜNG EM NHỎ\n8. KHÔNG GỬI LINK 18+, S/E/X 🔞\n9. KHÔNG PHÂN BIỆT VÙNG MIỀN, LGBT, KHÔNG TIẾP CALI\n10. HẠN CHẾ SỬ DỤNG NHỮNG TỪ NGỮ GÂY KHÓ CHỊU CHO THÀNH VIÊN KHÁC",
+                "uri": "s"
+            },
+            {
+                "input": "kí tự",
+                "output": "『ѕɢ』",
+                "uri": "s"
+            },
+            {
+                "input": "Tvm",
+                "output": "✨𝐂𝐡𝐚̀𝐨 𝐓𝐕𝐌 𝐍𝐡𝐚𝐚✨\n+ 𝐕𝐚̀𝐨 𝐓𝐡𝐢̀ 𝐍𝐡𝐨̛́ 𝐆𝐢𝐨̛́𝐢 𝐓𝐡𝐢𝐞̣̂𝐮\n+ 𝐒𝐡𝐨𝐰 𝐀𝐜𝐜 𝐆𝐚𝐦𝐞 \n+ 𝐒𝐞𝐭 𝐛𝐝 𝐓𝐡𝐞𝐨 𝐓𝐞̂𝐧 𝐁𝐨𝐱 : 『ѕɢ』",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "7331884746915896",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "[ Thành Viên Vào Nhóm]\n────────────────\n👤 Thành viên: {name}\n📝 Profile: {link}\n{time}",
+                "uri": "random gái"
+            },
+            {
+                "input": "Anime",
+                "output": "Anime",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "23999053019738459",
+        "shortcuts": [
+            {
+                "input": "anime",
+                "output": "🎋",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "join",
+                "output": "‎‎→ •[🐻] 𝑯𝒆𝒍𝒍𝒐 𝒄𝒐𝒏 𝒗𝒐̛̣ {name} 𝒕𝒐̛́𝒊 𝒗𝒐̛́𝒊 𝒏𝒉𝒐́𝒎 𝐏𝐚𝐢𝐧𝐭𝐡𝐞𝐫 🫧 𝒄𝒖̉𝒂 𝒄𝒉𝒖́𝒏𝒈 𝒕𝒐̂𝒊 \n👉𝙃𝙖̃𝙮 𝙘𝙝𝙖̆𝙢 𝙩𝙪̛𝙤̛𝙣𝙜 𝙩𝙖́𝙘 𝙝𝙖̆̀𝙣𝙜 𝙣𝙜𝙖̀𝙮 𝙣𝙝𝙖 𝙠𝙝𝙤̂𝙣𝙜 𝙡𝙖̀ 𝙖̆𝙣 𝙠𝙞𝙘𝙠 đ𝙖̂́𝙮 𝙣𝙝𝙚́🫶💞",
+                "uri": "random gái"
+            },
+            {
+                "input": "tvm",
+                "output": "tvm tự giới thiệu nha\nTên\nTuổi\nNgày tháng năm sinh\nGiới tính\nChiều cao\nCân nặng\nTuổi gì\nThích gì\nBị bệnh gì\nNhóm máu gì\nNgày tắm bao lần\nCanh gì\nMệnh gì\nSdt\nFacebook \nInstagram \nZalo\nTiktok\nCó vợ, chồng gì chưa\nnhóm máu gì\nCó bệnh nền không\nTrường học tên gì\nHọc lớp mấy\nLớp có bao nhiêu người\nNơi cư trú\nNơi thường trú\nBa làm nghề gì\nMẹ làm nghề gì\nNhà bao người\nCon thứ mấy \nNhà có nuôi chó mèo không \nNgày tắm bao nhiêu lần\nĂn bao nhiêu bát cơm\nCó bao nhiêu nyc\nNyc làm nghề gì\nThu nhập bao nhiêu",
+                "uri": "random anime"
+            },
+            {
+                "input": "gái",
+                "output": "ㅤgái đẹp của Gia Meoㅤ",
+                "uri": "random gái"
+            },
+            {
+                "input": "luật",
+                "output": "𝐏𝐚𝐢𝐧𝐭𝐡𝐞𝐫 🫧 Xin Chào\n___\n📌Luật box tớ\n\n1. Không fake tuổi + fake ảnh độ tuổi 9x - 2011\n2. Vào box giới thiệu + show acc game + set bd như mọi người  \n3.Không phân biệt giàu nghèo, LGBT\n4. Tôn trọng Boss, Qtv và mọi người trong box\n5. Không gửi ảnh/link 🔞 \n6. Ưu tiên người có thời gian rảnh rỗi và tương tác với mọi người\n7. Không tuyển trẻ trâu, cá cảnh\n8. Không gây war + gây drm trong box, được nói tục nhưng hạn chế nhé \n9. Không tùy tiện đổi tên, nền, icon, ảnh của box\n10. Tạo điều kiện cho mọi người giao lưu làm quen nhau\n11. Không rao spam, rao bán trong box \n12. Hạn chế nhắc, gửi ảnh game khác trong box\n13.Khi out phải có lí do\n____\n⛔ Lưu ý : Không gây drama , không fake tuổi \n❗ Ai có ý định cướp nhóm thì tớ đừng xin vào, còn nếu vào rồi mà có ý định cướp thì bọn tớ xin kick thẳng nhé 💌\n____\n📌 LỢI ÍCH KHI VÀO NHÓM \n🫧 Đến sinh nhật được tặng quà hoặc tổ chức theo khả năng của mỗi người \n🫧 Có thêm nhiều người bạn mới \n🫧 Kiếm được ngy , setlove \n🫧 Đú trend cùng mọi người",
+                "uri": "random anime"
+            },
+            {
+                "input": "bd",
+                "output": "Tvm gth rồi set bd nha \nDưới đây là mẫu set bd bên nhóm tớ 💞\n👉 ᵖᵗ tên game + năm sinh",
+                "uri": "https://files.catbox.moe/mhik0v.mp4"
+            }
+        ]
+    },
+    {
+        "threadID": "26277371745242860",
+        "shortcuts": [
+            {
+                "output": "{name} tag cái chóa gì?",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            }
+        ]
+    },
+    {
+        "threadID": "7507188822723583",
+        "shortcuts": [
+            {
+                "output": "nhớ à mà tag🤮",
+                "uri": "https://files.catbox.moe/3msa4h.mp4",
+                "input_type": "tag",
+                "tag_id": "61561862485555"
+            }
+        ]
+    },
+    {
+        "threadID": "2442654425815698",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "🎉Chào mừng {name} đến với Hải Phòng Gaming , Clan top đầu Hải Phòng về PUBG,LQ,TFT,FCO, hoạt động thể thao hàng tuần, BIG OFF hàng tháng,... \nBạn là thành viên thứ:  {soThanhVien} của 16HP\n❤️ Chúc bạn có những khoảnh khắc đáng nhớ tại Clan trong tương lai\nTime: {time}",
+                "uri": "https://files.catbox.moe/qinimr.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Hello ace thành viên Clan 16HP. Chúc ace có buổi tối vui vẻ ❤️\nTVM nào chưa có ny thì ib e ạ😁",
+                "hours": "18:30:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Hello ace thành viên Clan 16HP. Chúc ace có buổi chiều vui vẻ ❤️\nTVM nào chưa có ny thì ib e ạ😁",
+                "hours": "13:00:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Hello ace thành viên Clan 16HP. Chúc ace có buổi sáng vui vẻ ❤️\nTVM nào chưa có ny thì ib e ạ😁",
+                "hours": "07:00:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Hello ace thành viên Clan 16HP. Chúc ace ngủ ngon mơ đẹp ( trừ ace ế ) ❤️",
+                "hours": "00:15:00",
+                "uri": "https://files.catbox.moe/qwq8x1.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Dưới đây là đội ngũ Ban Lãnh Đạo và lĩnh vực quản lý Clan để mọi người có thể liên hệ khi cần\n@QTV hoặc @BLĐ để tag",
+                "hours": "12:00:00",
+                "uri": "https://files.catbox.moe/gmceyq.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Dưới đây là đội ngũ Ban Lãnh Đạo và lĩnh vực quản lý Clan để mọi người có thể liên hệ khi cần\n@QTV hoặc @BLĐ để tag",
+                "hours": "09:00:00",
+                "uri": "https://files.catbox.moe/szhjc5.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Dưới đây là đội ngũ Ban Lãnh Đạo và lĩnh vực quản lý Clan để mọi người có thể liên hệ khi cần\n@QTV hoặc @BLĐ để tag",
+                "hours": "15:00:00",
+                "uri": "https://files.catbox.moe/szhjc5.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Dưới đây là đội ngũ Ban Lãnh Đạo và lĩnh vực quản lý Clan để mọi người có thể liên hệ khi cần\n@QTV hoặc @BLĐ để tag",
+                "hours": "18:00:00",
+                "uri": "https://files.catbox.moe/szhjc5.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Dưới đây là đội ngũ Ban Lãnh Đạo và lĩnh vực quản lý Clan để mọi người có thể liên hệ khi cần\n@QTV hoặc @BLĐ để tag",
+                "hours": "21:00:00",
+                "uri": "https://files.catbox.moe/szhjc5.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Bú liếm chỉm cưng",
+                "hours": "02:20:00",
+                "uri": "https://files.catbox.moe/fqxv3j.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "18:05:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "07:00:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "09:05:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "12:05:00",
+                "uri": "https://files.catbox.moe/72q2fz.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "25913166924997476",
+        "shortcuts": [
+            {
+                "input": "Bú",
+                "output": "Bú",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "8069126376528074",
+        "shortcuts": [
+            {
+                "input": "Kí tự",
+                "output": "亗SH・ TÊN و",
+                "uri": "s"
+            },
+            {
+                "output": "Cần gì ib riêng nha bé {name}",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "Tvm",
+                "output": "Tvm set bd theo kí tự clan và giới thiệu",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8044363088991014",
+        "shortcuts": [
+            {
+                "input": "Kí tự",
+                "output": "ᴀɴᴅᴏɴᴇ - tên | năm sinh",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "Hi {name}, chào bạn đến với NGÔI NHÀ THỨ 2 - ᴀɴᴅᴏɴᴇ của chúng tôi bạn là tv thứ {soThanhVien}",
+                "uri": "random gái"
+            },
+            {
+                "output": "{name} tag cái đb",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "output": "{name} thật ngu khi tag công chúa",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100083974744708"
+            },
+            {
+                "input_type": "leave",
+                "output": "{name} {trangThai} Vì quá ngu",
+                "uri": "random anime"
+            },
+            {
+                "output": "tag con cặc",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100078014213789"
+            }
+        ]
+    },
+    {
+        "threadID": "6620227634772011",
+        "shortcuts": [
+            {
+                "input": "🌃",
+                "output": "🌃",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "8816775328351070",
+        "shortcuts": [
+            {
+                "input": "Cc",
+                "output": "Cc",
+                "uri": "random gái"
+            },
+            {
+                "input_type": "join",
+                "output": "{name} đã vào nhóm",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "8486748774716597",
+        "shortcuts": [
+            {
+                "input": "tvm",
+                "output": "gt set bdanh kèm 5sinh",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "hello {name} chào mừng bạn đến với {nameThread} bạn là thành viên thứ {soThanhVien}",
+                "uri": "s"
+            },
+            {
+                "input": "bơ",
+                "output": "5149043366",
+                "uri": "s"
+            },
+            {
+                "input": "chủ bot",
+                "output": "như cục cứt bớt tắt bot :) tắt bot giảm còn 30k/tháng",
+                "uri": "s"
+            },
+            {
+                "output": "Gọi gì đó bae dùng lệnh callad đi :3",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            }
+        ]
+    },
+    {
+        "threadID": "24844132488511319",
+        "shortcuts": [
+            {
+                "output": "Hi em eiu {name}",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            }
+        ]
+    },
+    {
+        "threadID": "6804616456270022",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "Idol đầu cặc {name} vào box",
+                "uri": "random gái"
+            },
+            {
+                "input": "Cc",
+                "output": "😺",
+                "uri": "https://files.catbox.moe/3i2n05.m4a"
+            }
+        ]
+    },
+    {
+        "threadID": "7183170565119745",
+        "shortcuts": [
+            {
+                "input": "Bơ",
+                "output": "Gọi gì!?",
+                "uri": "https://files.catbox.moe/f6qwo5.jpg"
+            },
+            {
+                "output": "💚",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "output": "Id : 51578604400\nGọi gì!?",
+                "uri": "https://files.catbox.moe/f6qwo5.jpg",
+                "input_type": "tag",
+                "tag_id": "100001481306123"
+            }
+        ]
+    },
+    {
+        "threadID": "8695779030461186",
+        "shortcuts": [
+            {
+                "input": "Tom",
+                "output": "🆔5426604783 - Thích một mình nhưng sợ cô đơn",
+                "uri": "https://files.catbox.moe/75847d.jpg"
+            },
+            {
+                "output": "Có gì lói luon",
+                "uri": "https://files.catbox.moe/r9pq5m.jpg",
+                "input_type": "tag",
+                "tag_id": "100016787711524"
+            },
+            {
+                "input": "Hằng",
+                "output": "🆔5874353584 - Ket ban voi tuii",
+                "uri": "https://files.catbox.moe/im7jjp.jpg"
+            },
+            {
+                "input": "Mèo",
+                "output": "Gọi cái choá gì!!!?",
+                "uri": "https://files.catbox.moe/066o6s.jpg"
+            },
+            {
+                "input": "Bơ",
+                "output": "🆔51578604400  -  lúc vui lúc không",
+                "uri": "https://files.catbox.moe/gr1rbg.jpg"
+            },
+            {
+                "input": "Panda",
+                "output": "5657556499 - Bắn ngu, đẩy ẩu",
+                "uri": "https://files.catbox.moe/uuiym7.jpg"
+            },
+            {
+                "output": "Iu em nhiều lắm {name}",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input_type": "join",
+                "output": "‎ ==『 Thành viên vào nhóm==\n    ━━━━━━━━━━━━━━━━\n→ [💓] 𝗖𝗵𝗮̀𝗼 𝗺𝘂̛̀𝗻𝗴 {name} 𝘁𝗼̛́𝗶 𝘃𝗼̛́𝗶 𝗻𝗵𝗼́𝗺 {nameThread}\n━━━━━━━━━━━━━━━━\n→ [🌷] 𝗡𝗵𝗼̛́ 𝘁𝘂̛𝗼̛𝗻𝗴 𝘁𝗮́𝗰 đ𝗮̂̀𝘆 đ𝘂̉ 𝗻𝗵𝗮́ 𝗯𝗯𝗶 𝘁𝗵𝘂̛́ {soThanhVien}𝗰𝘂̉𝗮 𝗯𝗼𝘁\n→ [❄️] 𝗖𝗵𝘂́𝗰 𝗯𝗯𝗶 𝟭 𝗻𝗴𝗮̀𝘆 𝘁𝗵𝗮̣̂𝘁 𝘃𝘂𝗶 𝘃𝗲̉\n→ [⏰️] 𝗧𝗵𝗼̛̀𝗶 𝗚𝗶𝗮𝗻 𝗩𝗮̀𝗼 𝗡𝗵𝗼́𝗺: {time}",
+                "uri": "random anime"
+            },
+            {
+                "input": "Bii",
+                "output": "5597785140 - chú yêu tất cả các ems",
+                "uri": "https://files.catbox.moe/jln34x.jpg"
+            },
+            {
+                "input": "Bỏ con",
+                "output": "Làm người mà bỏ con đi ngoại tình thì chết cụ đi",
+                "uri": "s"
+            },
+            {
+                "input": "Tvm",
+                "output": "Tvm gt cho mn dễ xưng hô nha",
+                "uri": "random gái"
+            },
+            {
+                "input": "Kt",
+                "output": "BrW؄",
+                "uri": "s"
+            },
+            {
+                "input": "Chú Bi hiện lên và nói",
+                "output": "2 đứa m như 1 nhỉ✅🤡",
+                "uri": "s"
+            },
+            {
+                "input": "Tv clan",
+                "output": "Set bd + năm sinh + ✅",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "6101132783254029",
+        "shortcuts": [
+            {
+                "output": "Yêu {name}",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100001481306123"
+            },
+            {
+                "input": "phê cơ",
+                "output": "đù má what was that",
+                "uri": "https://files.catbox.moe/zwggtd.jpg"
+            },
+            {
+                "input": "chào buổi sáng",
+                "output": "chào buổi sáng",
+                "uri": "https://files.catbox.moe/wg9780.jpg"
+            },
+            {
+                "input": "Bò",
+                "output": "Tao đây",
+                "uri": "https://files.catbox.moe/lhwz15.jpg"
+            },
+            {
+                "input": "chúc mừng năm mới",
+                "output": "chúc mừng năm mới",
+                "uri": "https://files.catbox.moe/9gkhr2.gif"
+            },
+            {
+                "input": "xinh",
+                "output": "gái",
+                "uri": "random gái"
+            },
+            {
+                "input": "stk",
+                "output": "mb bank :\n11268869999\nVu Hai Nam",
+                "uri": "https://files.catbox.moe/o966gs.jpg"
+            },
+            {
+                "input": "wibu",
+                "output": "lỏ",
+                "uri": "random anime"
+            },
+            {
+                "input": "đừng...",
+                "output": "🤞🏻",
+                "uri": "https://files.catbox.moe/wju0em.jpg"
+            },
+            {
+                "input": "thức",
+                "output": "haiz",
+                "uri": "https://files.catbox.moe/coo111.jpg"
+            },
+            {
+                "input": "ngủ",
+                "output": "ngon",
+                "uri": "https://files.catbox.moe/fb018n.jpg"
+            },
+            {
+                "input": "Huấn",
+                "output": "Đạo lý làm người",
+                "uri": "https://files.catbox.moe/4bxnon.mp4"
+            },
+            {
+                "input": "pdt",
+                "output": "Occho",
+                "uri": "https://files.catbox.moe/303awo.jpg"
+            },
+            {
+                "input": "đóm",
+                "output": "Jack J97 thiên lý ơi",
+                "uri": "https://files.catbox.moe/wqqzm1.jpg"
+            },
+            {
+                "input": "loz",
+                "output": "j",
+                "uri": "https://files.catbox.moe/66wcoq.jpg"
+            },
+            {
+                "input": "Thỏ",
+                "output": "Gà rán nè em thỏ",
+                "uri": "https://files.catbox.moe/ls41c8.jpg"
+            },
+            {
+                "input": "Pủ",
+                "output": "Cho xin ít xiền",
+                "uri": "https://files.catbox.moe/bq98r1.jpg"
+            },
+            {
+                "input": "ae dau",
+                "output": "thang loz nao choi ae tao",
+                "uri": "https://files.catbox.moe/3s3tek.jpg"
+            },
+            {
+                "input": "buyến",
+                "output": "buyến",
+                "uri": "https://files.catbox.moe/qoaoeh.jpg"
+            },
+            {
+                "input": "bố",
+                "output": "ANH TÂN ƠI",
+                "uri": "https://files.catbox.moe/zduasb.jpg"
+            },
+            {
+                "input": "vợ",
+                "output": "tới đeiii",
+                "uri": "random gái"
+            },
+            {
+                "input": "money",
+                "output": "IN THE BANK",
+                "uri": "https://files.catbox.moe/1muk3c.jpg"
+            },
+            {
+                "input": "làm đĩ",
+                "output": "500/1 suất",
+                "uri": "https://files.catbox.moe/hm703c.jpg"
+            },
+            {
+                "input": "7",
+                "output": "RONALDO SIUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUU",
+                "uri": "https://files.catbox.moe/lv4tfv.jpg"
+            },
+            {
+                "input": "ri đỗ",
+                "output": "bố cái thằng rô đĩ",
+                "uri": "https://files.catbox.moe/szy4fm.jpg"
+            },
+            {
+                "input": "tiền",
+                "output": "đéo có",
+                "uri": "s"
+            },
+            {
+                "input": "vhn",
+                "output": "ba đù",
+                "uri": "s"
+            },
+            {
+                "input": "dmm",
+                "output": "nghe cho rõ đây",
+                "uri": "https://files.catbox.moe/j7ujbb.mp4"
+            },
+            {
+                "input": "gu",
+                "output": "của ai đei",
+                "uri": "https://files.catbox.moe/mk8cu2.jpg"
+            },
+            {
+                "input": "nín",
+                "output": "im lặng nào con vk của a",
+                "uri": "https://files.catbox.moe/ln254l.jpg"
+            },
+            {
+                "input": "dậy đi",
+                "output": "tỉnh ngủ mà luyện tập bản thân đi cu",
+                "uri": "https://files.catbox.moe/7ht1cm.jpg"
+            },
+            {
+                "input": "bùn",
+                "output": "cầm lấy đi bro",
+                "uri": "https://files.catbox.moe/0bp3j8.jpg"
+            },
+            {
+                "input": "tân",
+                "output": "bo may toi roi day",
+                "uri": "https://files.catbox.moe/rl5jnh.jpg"
+            },
+            {
+                "input": "t1",
+                "output": "trẻ em xa mạc truyền tai nhau \n\nXương rồng đơm lá, đơm hoa \nNước ngọt đong đầy trên cao nguyên đá\nLà ngày Hoàng đế về nhà\nBảy năm mòn mỏi, kiệu hoa đón ngài \nVương triều màu Đỏ mất ngai \nBao năm chờ đợi, mong ngày phục hưng\nCuối cùng trời đã đông hừng \nĐế chế trở lại, chúc mừng Quỷ Vương!",
+                "uri": "https://files.catbox.moe/t6sca0.jpg"
+            },
+            {
+                "input": "fc",
+                "output": "thohitco",
+                "uri": "https://files.catbox.moe/si6dvx.mp4"
+            },
+            {
+                "input": "nqh",
+                "output": "trung ki oc oc oc oc oc",
+                "uri": "https://files.catbox.moe/adc7og.mp4"
+            },
+            {
+                "input": "nqh",
+                "output": "cái l má m",
+                "uri": "https://files.catbox.moe/c6yn56.jpg"
+            },
+            {
+                "input": "oc oc oc",
+                "output": "th lz trung kì rách",
+                "uri": "https://files.catbox.moe/c6yn56.jpg"
+            },
+            {
+                "input": "hôi lông",
+                "output": "vhn",
+                "uri": "s"
+            },
+            {
+                "input": "Quạt",
+                "output": "20000000 năm",
+                "uri": "https://files.catbox.moe/4nnm1n.mp4"
+            },
+            {
+                "input": "anh tân",
+                "output": "anh Tân của em Long là 1 người sống chất, 1 người sống tình cảm, 1 người có uy tín. 83 86 mãi đỉnh anh Tân nhá. Mãi đỉnh, mãi đỉnh, mãi đỉnh.",
+                "uri": "https://files.catbox.moe/5nrnce.jpg"
+            },
+            {
+                "input": "hani",
+                "output": "🥴",
+                "uri": "https://files.catbox.moe/rfmyya.mp4"
+            },
+            {
+                "input": "gu 1",
+                "output": "của ai đei",
+                "uri": "https://files.catbox.moe/ft7t74.jpg"
+            },
+            {
+                "input": "bankai",
+                "output": "yamero",
+                "uri": "random gái"
+            },
+            {
+                "input": "henshin",
+                "output": "d d d cade",
+                "uri": "random gái"
+            },
+            {
+                "input": "gà rán",
+                "output": "only for u",
+                "uri": "https://files.catbox.moe/rva3tl.jpg"
+            },
+            {
+                "input": "pxm",
+                "output": "Baeboo",
+                "uri": "https://files.catbox.moe/d6tpz1.jpg"
+            },
+            {
+                "input": "hello",
+                "output": "có nghĩa là xin chào",
+                "uri": "https://files.catbox.moe/nxvd9i.mp4"
+            },
+            {
+                "input": "GOAT",
+                "output": "FAKER",
+                "uri": "https://files.catbox.moe/kg316z.jpg"
+            },
+            {
+                "input": "chào buổi trưa",
+                "output": "hi",
+                "uri": "https://files.catbox.moe/ssx4x6.jpg"
+            },
+            {
+                "input": "chiều",
+                "output": "hi",
+                "uri": "https://files.catbox.moe/7mbvw7.jpg"
+            },
+            {
+                "output": "cái chó j",
+                "uri": "random anime",
+                "input_type": "tag",
+                "tag_id": "100025805502376"
+            },
+            {
+                "input": "cmm nx",
+                "output": "cmm ww sì pai",
+                "uri": "s"
+            },
+            {
+                "output": "Cmm Pủ con",
+                "uri": "https://files.catbox.moe/2dvlw0.gif",
+                "input_type": "tag",
+                "tag_id": "100004095563356"
+            }
+        ]
+    },
+    {
+        "threadID": "7402015159894887",
+        "shortcuts": []
+    },
+    {
+        "threadID": "7470217089725355",
+        "shortcuts": []
+    },
+    {
+        "threadID": "7145533132218616",
+        "shortcuts": [
+            {
+                "input_type": "leave",
+                "output": "trangThai",
+                "uri": "s"
+            },
+            {
+                "input_type": "join",
+                "output": "Vào box gt , show acc ( không ngại thì show mặt luôn ) và set bd kèm năm sinh\nTương tác nhiều với mn leo Rank + ảo Nor\n📌Tv không đc phép tag all , cấm gửi ảnh 18+ trong box , được giỡn tục nhưng hạn chế. \n📌 Nghiêm cấm gây war trong box + hơn thua.\nMỗi tuần box sẽ lập team đánh cúp + tập hợp đánh GL nội bộ ( gl trong box ) không được cay cú.\n📌Tôn trọng QTV và các tv khác trong box .",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8867281286641611",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "idol {name} đã bị rọ mõm",
+                "uri": "random gái"
+            },
+            {
+                "input": "🤯",
+                "output": "🤯",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "7952902934811712",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "━━━━━━━━━━━━━━━━\n→ [💓] 𝗖𝗵𝗮̀𝗼 𝗺𝘂̛̀𝗻𝗴 {name} 𝘁𝗼̛́𝗶 𝘃𝗼̛́𝗶 𝗻𝗵𝗼́𝗺 {nameThread}\n━━━━━━━━━━━━━━━━\n→ [🌷] 𝗡𝗵𝗼̛́ 𝘁𝘂̛𝗼̛𝗻𝗴 𝘁𝗮́𝗰 đ𝗮̂̀𝘆 đ𝘂̉ 𝗻𝗵𝗮́ 𝗯𝗯𝗶 𝘁𝗵𝘂̛́ {soThanhVien}𝗰𝘂̉𝗮 𝗯𝗼𝘁\n→ [❄️] 𝗖𝗵𝘂́𝗰 𝗯𝗯𝗶 𝟭 𝗻𝗴𝗮̀𝘆 𝘁𝗵𝗮̣̂𝘁 𝘃𝘂𝗶 𝘃𝗲̉\n→ [⏰️] 𝗧𝗵𝗼̛̀𝗶 𝗚𝗶𝗮𝗻 𝗩𝗮̀𝗼 𝗡𝗵𝗼́𝗺: {time}",
+                "uri": "random gái"
+            },
+            {
+                "input": "Bơ",
+                "output": "Bơ K4 \nID 51578604400",
+                "uri": "s"
+            },
+            {
+                "input": "Kt",
+                "output": "『Bee』",
+                "uri": "s"
+            },
+            {
+                "output": "Nói liên tục đi???",
+                "uri": "https://files.catbox.moe/f6qwo5.jpg",
+                "input_type": "tag",
+                "tag_id": "100001481306123"
+            },
+            {
+                "input": "Bơ iu",
+                "output": "ID : 5179180661",
+                "uri": "s"
+            },
+            {
+                "input": "Tv",
+                "output": "Luật clan…. \n-Tôn trọng leader,cold và QTV\n-Không toxic,mắc bệnh ngôi sao\n-Không nhận cá cảnh\n-gl 3 ngày hợp thì đổi tên \n-Không ở 2 clan\n-Không hack,bug,cheat và phần mềm hỗ trợ khác trong game dưới mọi hình thức\n-Không spam tin nhắn tránh loãng box\n-Không gây chia rẽ,chia bè phái gây xích mích nội bộ clan\n-Không leak tin nhắn trong clan ra ngoài\nThank all",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8245979718862810",
+        "shortcuts": [
+            {
+                "input": "tvm",
+                "output": "gth + set bd + show acc nhe",
+                "uri": "s"
+            },
+            {
+                "output": "Gọi cái lull zìiiii",
+                "uri": "https://files.catbox.moe/sm6ua5.mp4",
+                "input_type": "tag",
+                "tag_id": "100041105450808"
+            },
+            {
+                "output": "Tag cloz nói nhanh 🫸🏻",
+                "uri": "https://files.catbox.moe/3xbxxg.mp4",
+                "input_type": "tag",
+                "tag_id": "100056361272147"
+            }
+        ]
+    },
+    {
+        "threadID": "7792396437512090",
+        "shortcuts": [
+            {
+                "input_type": "autosend",
+                "output": "Mn Buổi Sáng Vui Vẻ",
+                "hours": "06:00:00",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Mn Buổi Tối Vui Vẻ",
+                "hours": "18:00:00",
+                "uri": "random gái"
+            },
+            {
+                "input": "Video gái",
+                "output": "Đéo có",
+                "uri": "https://files.catbox.moe/n0r7jw.mp4"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Chúc mn buổi trưa mát mẻ nhé😍",
+                "hours": "12:05:00",
+                "uri": "random gái"
+            },
+            {
+                "input_type": "autosend",
+                "output": "Ngủ đi nào các ngoan xinh yêu😍",
+                "hours": "21:30:00",
+                "uri": "random gái"
+            },
+            {
+                "input_type": "join",
+                "output": "[ Thành Viên Tham Gia ]\n———————————————\n👤Name : {name}\n👁️Link : {link}\n🗣️Bạn là thành viên thứ {soThanhVien} Của Nhóm MEOWL\n🤴🏻Được Thêm Vào Bởi {authorName}\n🔗Link : {authorId}\n⏰{time}",
+                "uri": "random gái"
+            },
+            {
+                "input_type": "leave",
+                "output": "[ Thành Viên Đã Bị Kick ]\n———————————————\n👤Name : {name}\n👁️Link : {link}\n🗣️Bạn là thành viên thứ {soThanhVien} Của Nhóm MEOWL\n🤴🏻Được Kick Bởi {authorName}\n🔗Link : {authorId}\n⏰{time}",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "7769921876380762",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "🎉Chào mừng {name} đến với Hải Phòng Gaming FC ONLINE , Clan top đầu Hải Phòng về PUBG,LQ,TFT,FCO, hoạt động thể thao hàng tuần, BIG OFF hàng tháng,... \nBạn là thành viên thứ:  {soThanhVien} của 16HP FCO\n❤️ Chúc bạn có những khoảnh khắc đáng nhớ tại Clan trong tương lai\nTime: {time}",
+                "uri": "https://files.catbox.moe/qinimr.jpg"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "07:00:00",
+                "uri": "s"
+            },
+            {
+                "input_type": "autosend",
+                "output": "🎊 BIG OFF TẤT NIÊN HẢI PHÒNG GAMING 🎊\n⏰ 18:45 thứ 7 ngày 25/1 dương lịch, tức 26 tết\nBUỔI BIG OFF GẶP GỠ CUỐI NĂM GIỮA CÁC THÀNH VIÊN\n👉 Chương trình vinh danh khen thưởng, bốc thăm lì xì may mắn, ca nhạc, nhậu,...\n👉 Địa điểm tổ chức: đang cập nhật\n👉 Link đăng ký và chi tiết:https://forms.gle/rmF1nQwWgi6bDa2C7",
+                "hours": "12:05:00",
+                "uri": "https://files.catbox.moe/x03obs.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "7898106180277523",
+        "shortcuts": [
+            {
+                "input": "Hi",
+                "output": "🎉Xin chào , ngày mới tốt lành nhe bạn iu 🍀",
+                "uri": "s"
+            },
+            {
+                "input": "Heloo",
+                "output": "🎉Xin chào, ngày mới tốt lành nhe bạn iu 🍀",
+                "uri": "s"
+            },
+            {
+                "input": "Hi mn",
+                "output": "🎉 Xin chào , ngày mới tốt lành nhé 🍀",
+                "uri": "s"
+            },
+            {
+                "input": "tvm",
+                "output": "🎉✨ Welcome to friend LIQI BÁO AOV. \n________________________\n📌 Tvm vào nhóm giới thiệu show acc set biệt danh ⟨ bắt buộc ⟩.\n_____________________\n✨ Chúc các nàng các chàng ngày mới tốt lành .\n ____________________\n🎀 Vào nhóm không tương tác sẽ bị quản trị viên xoá khỏi nhóm.",
+                "uri": "https://files.catbox.moe/10nbbj.mp4"
+            },
+            {
+                "input": "Xin out",
+                "output": "[ Thành Viên Thoát Nhóm ]\n─────────────────\n📌 Goodbye LIQI Báo AOV .\n_________________________\n✨ Lý do : Thành viên xin thoát nhóm .\n🎀 Good Bye Everyone .\n______________________\n ✨See you again .",
+                "uri": "https://files.catbox.moe/1lvlzp.mp4"
+            },
+            {
+                "input": "Mn ngủ ngon",
+                "output": "Good night everyone 🎀✨",
+                "uri": "https://files.catbox.moe/otn30m.mp4"
+            },
+            {
+                "input": "Helo",
+                "output": "🎉Xin chào , ngày mới tốt lành nhe bạn iu 🍀",
+                "uri": "s"
+            },
+            {
+                "input": "Pp mn",
+                "output": "Paipai bạn iu , đi ngủ hả heo 🎀✨",
+                "uri": "s"
+            },
+            {
+                "input": "Ngủ ngon",
+                "output": "🎉Bấy bì ngủ ngon nhé , hapihapi",
+                "uri": "s"
+            },
+            {
+                "input": "Hí",
+                "output": "🎉Xin chào , ngày mới tốt lành nhe bạn iu 🍀",
+                "uri": "s"
+            },
+            {
+                "input": "Btvv",
+                "output": "🎉 nàg iu chàg iu buổi tối iu thương nhe 🎀",
+                "uri": "s"
+            },
+            {
+                "input": "Bsvv",
+                "output": "🎉 nàg iu chàg iu buổi sáng tốt lành , ngàn lời yêu thương gửi tới các nàg và chàg✨",
+                "uri": "s"
+            },
+            {
+                "input": "Phong",
+                "output": "Nghèo nhưng mà vẫn phải tinh tế , vay tiền để six gái 🎀",
+                "uri": "s"
+            },
+            {
+                "input": "Luật",
+                "output": "✨Luật của box 🎀\n━━━━━━━━━━━━\n📌1. Tvm gthieu + show acc +set bd (bắt buộc )\n📌2. Ko 18+ , ko toxic, ko war , ko bán acc ,hạn chế nói tục (2l=kick) \n📌3. Ko spam icon, spam bot ,spam tn (2l =kick )\n📌4.Tv ko tag all (chỉ qtv mới tag )\n📌5. 2 tuần lọc tv 1 lần (dưới 20 tn =kick )\n📌6. Ko lôi kéo tv vào box riêng của mình \n━━━━━━━━━━━━━━━\n→ ‎🎊 Welcome friend đến với nhóm LIQI BÁO AOV",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "9207887069244816",
+        "shortcuts": [
+            {
+                "input": "😵‍💫",
+                "output": "😵‍💫",
+                "uri": "random anime"
+            }
+        ]
+    },
+    {
+        "threadID": "8247773731982445",
+        "shortcuts": [
+            {
+                "input": "Hí",
+                "output": "Cc",
+                "uri": "random gái"
+            }
+        ]
+    },
+    {
+        "threadID": "27508432208756023",
+        "shortcuts": []
+    },
+    {
+        "threadID": "25326316900349352",
+        "shortcuts": [
+            {
+                "input": "Sj",
+                "output": "💗",
+                "uri": "s"
+            },
+            {
+                "output": "Cc",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "0",
+                "output": "0",
+                "uri": "https://files.catbox.moe/tnpmn5.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "8832561693492189",
+        "shortcuts": []
+    },
+    {
+        "threadID": "8703492396392640",
+        "shortcuts": [
+            {
+                "input": "ron",
+                "output": "ron tới chơi",
+                "uri": "random gái"
+            },
+            {
+                "input": "ebehna",
+                "output": "tới đei",
+                "uri": "random anime"
+            },
+            {
+                "input": "bò",
+                "output": "thằng nào gọi t",
+                "uri": "https://files.catbox.moe/le4zip.jpg"
+            },
+            {
+                "input": "chill",
+                "output": "hna thư giãn quá trớn",
+                "uri": "https://files.catbox.moe/1qibaz.jpg"
+            },
+            {
+                "output": "Tag đéo gì dùng /callad đi 😪",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "Na",
+                "output": "/vd trai",
+                "uri": "s"
+            },
+            {
+                "input": "môm",
+                "output": "bé nào gọi anh phải không nhỉ 🤙",
+                "uri": "https://files.catbox.moe/2dmiya.jpg"
+            },
+            {
+                "input": "a long",
+                "output": "Bae a tới rồi đei",
+                "uri": "https://files.catbox.moe/lmxzjt.jpg"
+            },
+            {
+                "input": "Bơ",
+                "output": "bơ iu 🥑thúi nhất clan nub số 1 thế giới 👀",
+                "uri": "https://files.catbox.moe/6cqusu.jpg"
+            },
+            {
+                "input": "Lọt",
+                "output": "Lu sing cơm bách đón năm mới với mọi người hoặc chúng ta chia làm đôi",
+                "uri": "https://files.catbox.moe/84n3cm.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "26849050824678461",
+        "shortcuts": [
+            {
+                "output": "Tag cái choá gì",
+                "uri": "https://files.catbox.moe/a9071p.jpg",
+                "input_type": "tag",
+                "tag_id": "100037607927009"
+            }
+        ]
+    },
+    {
+        "threadID": "7502460853190038",
+        "shortcuts": [
+            {
+                "output": "{name} tag đéo gì dùng /callad để gửi lời mún nói",
+                "uri": "random gái",
+                "input_type": "tag",
+                "tag_id": "100067508386723"
+            },
+            {
+                "input": "@Doudou xS 【٭】(03)",
+                "output": "Ơiiiii Bảo đây:)",
+                "uri": "https://files.catbox.moe/fzhduf.mp4"
+            },
+            {
+                "input": "Thdat nè mn ơi",
+                "output": "@thdatxS【٭】05",
+                "uri": "https://files.catbox.moe/zn370v.mp4"
+            },
+            {
+                "output": "iuu k mà kêu 🥰 id : 5936929859",
+                "uri": "https://files.catbox.moe/h33kzi.mp4",
+                "input_type": "tag",
+                "tag_id": "61552121031159"
+            },
+            {
+                "input": "id Gắt",
+                "output": "5146385407",
+                "uri": "s"
+            },
+            {
+                "input": "Hi tvm",
+                "output": "Tvm vui lòng sửa biệt danh ngày tháng năm sinh VD: hehexS【٭】(00) gl 10/10",
+                "uri": "s"
+            },
+            {
+                "input": "Kí tự",
+                "output": "xS【٭】",
+                "uri": "s"
+            },
+            {
+                "input": "Quỹ Clan",
+                "output": "Bank nhiệt tình vào đừng ngại ❤️❤️",
+                "uri": "https://files.catbox.moe/off6t9.jpg"
+            },
+            {
+                "input": "Luật Clan",
+                "output": "Đọc cho kỹ vào đừng để mắc sai lầm nhé❤️",
+                "uri": "https://files.catbox.moe/g679r6.jpg"
+            },
+            {
+                "input": "id law",
+                "output": "5717472711",
+                "uri": "s"
+            },
+            {
+                "input": "id Kimmy",
+                "output": "5300244663",
+                "uri": "s"
+            },
+            {
+                "input": "id Búng",
+                "output": "511692512",
+                "uri": "s"
+            },
+            {
+                "input": "@Phạm Thịnh",
+                "output": "Anh Chàng Thư Dãn",
+                "uri": "https://files.catbox.moe/4uvkj2.mp4"
+            },
+            {
+                "input": "@Kimmy 【٭】(01)Thư Ký 🖤",
+                "output": "Thư ký Kim đâyyyy nà",
+                "uri": "https://files.catbox.moe/gx6c7n.mp4"
+            },
+            {
+                "input": "Box tb",
+                "output": "https://m.me/j/Aba1QVMAnHT14XAe/",
+                "uri": "s"
+            },
+            {
+                "output": "id Game : 5724696651",
+                "uri": "https://files.catbox.moe/tgtsvm.mp4",
+                "input_type": "tag",
+                "tag_id": "100023145684326"
+            },
+            {
+                "output": "Nói ít làm nhiều\nSẵn sàng làm liều\nVì người mình yêu",
+                "uri": "https://files.catbox.moe/7y95bz.jpg",
+                "input_type": "tag",
+                "tag_id": "100082135725185"
+            },
+            {
+                "output": "Leader Chào các con Vợ ❤️❤️",
+                "uri": "https://files.catbox.moe/iyqkcu.mp4",
+                "input_type": "tag",
+                "tag_id": "100024229839649"
+            }
+        ]
+    },
+    {
+        "threadID": "7148958128539091",
+        "shortcuts": [
+            {
+                "input_type": "leave",
+                "output": "Bai bai b iu😞💔",
+                "uri": "random anime"
+            },
+            {
+                "input_type": "join",
+                "output": "Hi thành viên mới. Chào mừng đến với yzsqd. Tương tác vui vẻ với box bạn nhé ❤",
+                "uri": "random anime"
+            },
+            {
+                "output": "gọi btd dz có gì khongggg:3",
+                "uri": "s",
+                "input_type": "tag",
+                "tag_id": "100036441425411"
+            },
+            {
+                "output": "gọi btd dz có gì khongggg:3",
+                "uri": "https://files.catbox.moe/mq5iru.mp4",
+                "input_type": "tag",
+                "tag_id": "100036441425411"
+            }
+        ]
+    },
+    {
+        "threadID": "5638666809495845",
+        "shortcuts": [
+            {
+                "input_type": "leave",
+                "output": "{name} {trangThai}",
+                "uri": "random gái"
+            },
+            {
+                "input": "@Nguyễn Phú Danh",
+                "output": "daa",
+                "uri": "https://files.catbox.moe/xkqpw6.mp4"
+            },
+            {
+                "input": "@Van Phat",
+                "output": "trùm ff",
+                "uri": "https://files.catbox.moe/fnolbf.jpg"
+            },
+            {
+                "input_type": "join",
+                "output": "[ Thành viên vào nhóm ]\n🐖 Xin chào {name} chào mừng bạn đến với nhóm {nameThread}\n🦎 Bạn là Thành viên thứ {soThanhVien}\n⚠️ Vào box nhớ tương tác nhé nếu không muốn bị kick!",
+                "uri": "https://files.catbox.moe/1v8110.mp4"
+            }
+        ]
+    },
+    {
+        "threadID": "7861279340592493",
+        "shortcuts": [
+            {
+                "input": "bích nga cute",
+                "output": "bún cute",
+                "uri": "https://files.catbox.moe/aygul4.jpg"
+            }
+        ]
+    },
+    {
+        "threadID": "8844783882278769",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "Set bd theo tên game+năm sinh",
+                "uri": "s"
+            },
+            {
+                "input": "Tvm",
+                "output": "Set bd theo tên game+năm sinh",
+                "uri": "s"
+            },
+            {
+                "input": "Id yota",
+                "output": "51679992576",
+                "uri": "s"
+            },
+            {
+                "input": "Id chú bee",
+                "output": "52212205917",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8623086691070698",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "Halo cục cưng {name}, fen là thành viên {soThanhVien} cụa {nameThread}\n\nGt + show + setname nhé!\nKí tự VsHz + name + năm sinh + ⭐(nếu zô chính thức) + gl...(nếu zô gl tình đồng chí)",
+                "uri": "https://files.catbox.moe/p3j6y5.jpg"
+            },
+            {
+                "input": "👑",
+                "output": "VsHz",
+                "uri": "s"
+            },
+            {
+                "input": "⭐",
+                "output": "Vào hội search: VinsmokeHouse - xong yêu cầu zô\nOr\nID: 52042986795 - VsHzCoca - Tìm acc xong vào đấy check hội🐷",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "8009324245836939",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "Welcome {name} đến với box {nameThread} bạn là thành viên thứ {soThanhVien}",
+                "uri": "https://files.catbox.moe/7xonnu.mp4"
+            },
+            {
+                "input": "@Hoàng Huy",
+                "output": "săn chị tuyết",
+                "uri": "https://files.catbox.moe/papbfv.mp4"
+            }
+        ]
+    },
+    {
+        "threadID": "9376938068984966",
+        "shortcuts": [
+            {
+                "input_type": "join",
+                "output": "Halo cục cưng {name}, fen là thành viên {soThanhVien} cụa {nameThread}\n\nGt + show + setname nhé!\nKí tự MQ๑ + name + năm sinh + 🐳(nếu zô chính thức) + gl...(nếu zô gl tình đồng chí)",
+                "uri": "https://files.catbox.moe/p3j6y5.jpg"
+            },
+            {
+                "input": "🐳",
+                "output": "MQ๑",
+                "uri": "s"
+            },
+            {
+                "input": "🐬",
+                "output": "Vào hội search: MinnQueen 2 - xong yêu cầu zô\nOr\nID: 52042986795 - MQ๑Ebeiu - Tìm acc xong vào đấy check hội🐷",
+                "uri": "s"
+            },
+            {
+                "input": "💰",
+                "output": "𝐌𝐨𝐦𝐨: 0397941370\n𝐂𝐭𝐤: 𝐓𝐑𝐀𝐍 𝐓𝐇𝐔𝐘 𝐇𝐀𝐍𝐆",
+                "uri": "s"
+            }
+        ]
+    },
+    {
+        "threadID": "9320948487937093",
+        "shortcuts": [
+            {
+                "input": "115",
+                "output": "[ Lưu ý ]",
+                "uri": "https://files.catbox.moe/npmchd.jpg"
+            },
+            {
+                "input": "Tvm",
+                "output": "Chin Chào tvm \n_________________________\nTvm vui lòng : \n   Giới thiệu . . .\n+ Set biệt danh thêm năm sinh",
+                "uri": "https://files.catbox.moe/npmchd.jpg"
+            }
+        ]
+    }
+]

@@ -1,0 +1,14 @@
+[
+    {
+        "senderID": 100067508386723,
+        "time": 1734875937851,
+        "input": 1000,
+        "historic_input": 0
+    },
+    {
+        "senderID": 100067508386723,
+        "time": 1734876117843,
+        "input": 10000,
+        "historic_input": 0
+    }
+]

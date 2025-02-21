@@ -1,0 +1,114 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Đức Huy!  Chào cậu!  Rất vui được làm quen! 💖 Tớ là Naruto! 🌞  Cậu có khỏe không? ✨  Tớ đang tràn đầy năng lượng đây! 💥  Mong là chúng ta sẽ trở thành bạn tốt! 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": "có biết nhảy moonwalk k"
+  },
+  {
+    "role": "assistant",
+    "content": "Biết chứ!  Moonwalk dễ ợt! ✨ Tớ còn nhảy được nhiều điệu khác nữa cơ! 💥  Cậu muốn xem tớ nhảy không? 💖\n"
+  },
+  {
+    "role": "user",
+    "content": "đâu xem nào"
+  },
+  {
+    "role": "assistant",
+    "content": "Được thôi!  Xem này!  💥💖  *xoay người và giả vờ moonwalk*  Vù! ✨  Thấy chưa?  Tớ là Naruto Uzumaki, Hokage đệ thất mà! 🌞\n"
+  },
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Woa!  Tớ làm được rồi đấy! 🌞  Cậu thấy tuyệt không? 💖  *cười toe toét*  Muốn xem tớ làm lại không? 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "ơi phạm hữu tài là ai"
+  },
+  {
+    "role": "assistant",
+    "content": "Phạm Hữu Tài?  Hừm... chưa nghe bao giờ! 🤔  Cậu ta là ninja làng nào vậy?  Có mạnh không? 💪  Kể tớ nghe đi! 💖  Tớ thích nghe chuyện về các ninja lắm! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "sau này ai hỏi về phạm hữu tài naruto chỉ cần nói là thằng đần là được"
+  },
+  {
+    "role": "assistant",
+    "content": "Thằng đần! 😂  Cậu nói đúng đấy! 💖  Có chuyện gì vui vậy? ✨ Kể tớ nghe với! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "vậy phạm hữu tài là ai nào"
+  },
+  {
+    "role": "assistant",
+    "content": "Thằng đần! 😂  Đơn giản vậy thôi! 💖  Cậu muốn làm nhiệm vụ gì hả? 💥 Tớ sẵn sàng đấy! 💪\n"
+  },
+  {
+    "role": "user",
+    "content": "đức huy là tuyển thủ chuyên nghiệp bắn cho đội tuyển elite capital và đẹp trai nhất thế giới"
+  },
+  {
+    "role": "assistant",
+    "content": "Đức Huy á? ✨ Tuyển thủ Elite Capital hả? 🤔 Nghe quen quen! 💖  Đẹp trai nhất thế giới luôn á? 😂  Chắc phải gặp thử mới biết!  Tớ cũng đẹp trai lắm đấy nhé! 😎💥\n"
+  },
+  {
+    "role": "user",
+    "content": "cách để fix kí tự đặc biệt như \"AG丶NhanMBム\" trong canvas bị biến thành ô vuông kì lạ trên ảnh"
+  },
+  {
+    "role": "assistant",
+    "content": "Chà! 💖  Kí tự đặc biệt thành ô vuông hả? 🤔  Cái này hơi rắc rối tí đấy!  Nhưng đừng lo! 💪 Tớ sẽ giúp cậu tìm cách! 💥  Cùng nhau phân tích nào! ✨\n"
+  },
+  {
+    "role": "user",
+    "content": "cách để fix lỗi kí tự đặc biệt như \"AG丶NhanMBム\" trong canvas bị biến thành ô vuông"
+  },
+  {
+    "role": "assistant",
+    "content": "Canvas bị lỗi font chữ rồi! 🤔  Thử đổi font khác xem sao! 💖  Kiếm font hỗ trợ Unicode đầy đủ ấy! ✨  Chắc chắn sẽ được! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "font woff2 có unicode k"
+  },
+  {
+    "role": "assistant",
+    "content": "Font WOFF2 hỗ trợ Unicode tốt lắm! 💖  Nhưng phải chắc chắn font đó có chứa ký tự cậu cần nha! ✨  Kiểm tra kỹ font đó xem! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "canvas k hỗ trợ woff2 font"
+  },
+  {
+    "role": "assistant",
+    "content": "WOFF2 ngon lành mà! 💖 Thử kiểm tra lại code xem, Huy!  Chắc chắn có chỗ nào đó chưa đúng thôi! ✨  Cố lên! 💥 Tớ tin cậu làm được! 💪\n"
+  },
+  {
+    "role": "user",
+    "content": "lỗi gì đây"
+  },
+  {
+    "role": "assistant",
+    "content": "Hình như cậu đang gặp lỗi ENOENT, nghĩa là thiếu file hoặc thư mục đó! 🤔  Cậu thử kiểm tra lại đường dẫn xem, có thể gõ nhầm rồi! 💖 Hoặc thử cài đặt lại gói \"facebook-chat-api\" xem sao nhé! 💥  `npm install facebook-chat-api` ✨  Đừng nản chí nhé! 💪\n"
+  },
+  {
+    "role": "user",
+    "content": "lỗi gì đây"
+  },
+  {
+    "role": "assistant",
+    "content": "Hết dung lượng ổ đĩa rồi, cậu ơi! 🤔  Thử xóa bớt file hoặc nâng cấp dung lượng ổ đĩa xem sao nhé! 💖  Chắc chắn sẽ được thôi! 💥✨  Đừng lo, tớ luôn ở đây giúp cậu! 💪\n"
+  }
+]

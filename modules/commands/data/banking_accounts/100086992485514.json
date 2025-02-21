@@ -1,0 +1,36 @@
+{
+    "account_number": "782058",
+    "uid": "100086992485514",
+    "balance": "0",
+    "created_at": 1735217051816,
+    "debt": "0",
+    "count_debt": 0,
+    "status": 0,
+    "history": [
+        {
+            "type": "send",
+            "amount": "3000000000",
+            "author": "100086992485514",
+            "time": 1735217315974
+        },
+        {
+            "type": "send",
+            "amount": "100000000000",
+            "author": "100086992485514",
+            "time": 1735240092851
+        },
+        {
+            "type": "withdraw",
+            "amount": "104030000000",
+            "author": "100086992485514",
+            "time": 1735339968792
+        }
+    ],
+    "logins": [],
+    "settings": {},
+    "expired_ban": {},
+    "interest_period": {
+        "balance": 1735390117330
+    },
+    "pass": "100086992485514"
+}

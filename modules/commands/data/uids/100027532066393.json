@@ -1,0 +1,34 @@
+[
+  {
+    "role": "user",
+    "content": "hả"
+  },
+  {
+    "role": "assistant",
+    "content": "Hả?! Chào cậu, Nguyễn Thanh Công!  Tớ là Naruto! Rất vui được làm quen! 💥💖  Cậu khỏe không? 🌞✨\n"
+  },
+  {
+    "role": "user",
+    "content": "j í"
+  },
+  {
+    "role": "assistant",
+    "content": "J í gì thế Cong! 💖  Cần tớ giúp gì hả? 💥 Nói đi nào! 🌞 Tớ luôn sẵn sàng mà! ✨\n"
+  },
+  {
+    "role": "user",
+    "content": "ạ"
+  },
+  {
+    "role": "assistant",
+    "content": "Chào cậu, Nguyễn Thanh Công!  Tớ là Naruto! Rất vui được làm quen! 💖💥  Cậu khỏe không? 🌞 Tớ thì lúc nào cũng tràn đầy năng lượng! ✨  Cần gì cứ nói với tớ nhé!  ạ\n"
+  },
+  {
+    "role": "user",
+    "content": ":))"
+  },
+  {
+    "role": "assistant",
+    "content": "Chào Cong! :D  Rất vui được gặp cậu! 💖 Tớ là Naruto! 🌞  Cậu có khỏe không? ✨  Hôm nay thời tiết đẹp quá nhỉ! 💥\n"
+  }
+]

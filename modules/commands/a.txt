@@ -1,0 +1,910 @@
+const path = require("path");
+const fs = require("fs");
+const moment = require('moment-timezone');
+moment.locale('vi');
+
+const cacheDir = path.join(__dirname, 'cache', 'check');
+
+if (!fs.existsSync(cacheDir)) {
+    fs.mkdirSync(cacheDir, { recursive: true });
+}
+
+const fileNoti = cacheDir + '/notiData.json';
+if (!fs.existsSync(fileNoti)) fs.writeFileSync(fileNoti, JSON.stringify([]));
+
+let sì_tốp = false;
+
+const cờ_rít_file = (filePath, event) => {
+    const New_File = {
+        Time: moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss || YYYY-MM-DD'),
+        total: [],
+        week: [],
+        day: []
+    };
+
+    if (event.isGroup) {
+        for (let userID of event.participantIDs) {
+            const du_sơ = {
+                id: userID,
+                count: 0,
+                ttgn: moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss || dddd')
+            };
+            New_File.total.push(du_sơ);
+            New_File.week.push(du_sơ);
+            New_File.day.push(du_sơ);
+        }
+    }
+
+    fs.writeFileSync(filePath, JSON.stringify(New_File, null, 4));
+    return New_File;
+};
+
+function lồn(data, idList) {
+    const cặc = { ...data };
+    const keys = ['total', 'week', 'day'];
+
+    keys.forEach(key => {
+        cặc[key] = data[key].filter(item => idList.includes(item.id));
+    });
+    return cặc;
+}
+
+module.exports = {
+    config: {
+        name: "check",
+        version: "4.5.0",
+        credits: "Niio-team (Vtuan)",
+        Rent: 1,
+        hasPermssion: 0,
+        description: "no",
+        usage: "no",
+        commandCategory: "Nhóm",
+        cooldowns: 0
+    },
+    handleEvent: async function ({ api, event, Threads }) {
+        if (sì_tốp) return;
+        if (!event.isGroup) return;
+
+        const { senderID, threadID } = event;
+        const filePath = path.join(cacheDir, `${threadID}.json`);
+
+        const timeJoinPath = path.join(__dirname, 'cache', 'timeJoin', `${threadID}.json`);
+
+        if (!fs.existsSync(timeJoinPath)) fs.writeFileSync(timeJoinPath, JSON.stringify([]));
+
+        let joinData = fs.readFileSync(timeJoinPath, 'utf-8');
+        joinData = joinData ? JSON.parse(joinData) : [];
+
+        const createTime = moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss, DD/MM/YYYY');
+
+        event.participantIDs.forEach(userID => {
+            if (!joinData.some(entry => entry.id === userID)) {
+                joinData.push({
+                    id: userID,
+                    time: createTime
+                });
+            }
+        });
+
+        fs.writeFileSync(timeJoinPath, JSON.stringify(joinData, null, 2));
+
+        let threadData;
+        if (!fs.existsSync(filePath)) {
+            threadData = cờ_rít_file(filePath, event);
+        } else {
+            try {
+                const rawData = fs.readFileSync(filePath);
+                threadData = JSON.parse(rawData);
+            } catch (error) {
+                threadData = cờ_rít_file(filePath, event);
+            }
+
+            event.participantIDs.forEach(userID => {
+                if (!threadData.total.some(user => user.id == userID)) {
+                    const user = {
+                        id: userID,
+                        count: 0,
+                        lastActive: moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss || dddd')
+                    };
+                    threadData.total.push(user);
+                    threadData.week.push(user);
+                    threadData.day.push(user);
+                }
+            });
+
+            fs.writeFileSync(filePath, JSON.stringify(threadData, null, 4));
+        }
+
+        const updateData = (dataArray, senderID) => {
+            const userDataIndex = dataArray.findIndex(e => e.id == senderID);
+            if (userDataIndex === -1) {
+                dataArray.push({
+                    id: senderID,
+                    count: 1,
+                    lastActive: moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss || dddd')
+                });
+            } else {
+                dataArray[userDataIndex].count++;
+                dataArray[userDataIndex].lastActive = moment().tz('Asia/Ho_Chi_Minh').format('HH:mm:ss || dddd');
+            }
+        };
+
+        updateData(threadData.total, senderID);
+        updateData(threadData.week, senderID);
+        updateData(threadData.day, senderID);
+
+        fs.writeFileSync(filePath, JSON.stringify(threadData, null, 4));
+    },
+    run: async function ({ api, event, Threads, args, Users }) {
+        const { messageReply, mentions, threadID, messageID, senderID } = event;
+        const filePath = path.join(cacheDir, `${threadID}.json`);
+        let threadData = JSON.parse(fs.readFileSync(filePath));
+        const participantIDs = event.participantIDs;
+
+        function quickSort(arr, key) {
+            if (arr.length <= 1) return arr;
+            const pivot = arr[Math.floor(arr.length / 2)][key];
+            const left = arr.filter(item => item[key] > pivot);
+            const middle = arr.filter(item => item[key] === pivot);
+            const right = arr.filter(item => item[key] < pivot);
+            return [...quickSort(left, key), ...middle, ...quickSort(right, key)];
+        }
+
+        if (args[0] === 'all' || args[0] === 'week') {
+            let đầu_buồi = lồn(threadData, participantIDs);
+            const sortedDataTotal = quickSort(đầu_buồi.total, 'count');
+            const sortedDataWeek = quickSort(đầu_buồi.week, 'count');
+            const sortedData = args[0] === 'all' ? sortedDataTotal : sortedDataWeek;
+
+
+            let Trang = 1;
+            const itemsPerPage = 75;
+            const totalPages = Math.ceil(sortedData.length / itemsPerPage);
+            const startIndex = (Trang - 1) * itemsPerPage;
+            const endIndex = Trang * itemsPerPage;
+
+
+            let message = `== [ CHECKTT ${args[0].toUpperCase()} ] - Page ${Trang}/${totalPages} ==`;
+            for (const [index, user] of sortedData.slice(startIndex, endIndex).entries()) {
+                const userInfo = await Users.getData(user.id);
+                let userName = userInfo.name;
+                if (!userName) {
+                    const userInfoAPI = await api.getUserInfo(user.id);
+                    userName = userInfoAPI[user.id]?.name || "Unknown";
+                }
+                message += `\n${startIndex + index + 1}. ${userName}: ${user.count}`;
+            }
+
+
+            message += `\n\n⚠️ Reply tin nhắn này kèm:
+- Trang + số trang: để xem trang khác (ví dụ: Trang 2)
+- Lọc + số tin: lọc người có số tin nhắn <= số nhập vào
+- Kick + stt (cách nhau bởi khoảng trắng): kick stt đó khỏi nhóm
+- Reset: reset tin nhắn về 0
+- Ngày tạo dữ liệu: ${threadData.Time}
+📌 Chú ý: Dùng check help để xem toàn bộ chức năng của lệnh
+
+Gỡ sau 60s`;
+            api.sendMessage(message, threadID, (err, info) => {
+                if (err) return console.error(err);
+                global.client.handleReply.push({
+                    name: module.exports.config.name,
+                    author: senderID,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    sortedData,
+                    totalPages,
+                    Trang,
+                    type: 'all'
+                });
+                setTimeout(() => { api.unsendMessage(info.messageID) }, 60000);
+            });
+
+            threadData = { ...threadData, ...đầu_buồi };
+            fs.writeFileSync(filePath, JSON.stringify(threadData, null, 4));
+        } else if (args[0] === 'day') {
+
+            let đầu_buồi = lồn(threadData, participantIDs);
+            const sortedData = quickSort(đầu_buồi.day, 'count');
+
+            let Trang = 1;
+            const itemsPerPage = 75;
+            const totalPages = Math.ceil(sortedData.length / itemsPerPage);
+            const startIndex = (Trang - 1) * itemsPerPage;
+            const endIndex = Trang * itemsPerPage;
+
+            let message = `== [ CHECKTT ${args[0].toUpperCase()} ] - Page ${Trang}/${totalPages} ==`;
+            for (const [index, user] of sortedData.slice(startIndex, endIndex).entries()) {
+                const userInfo = await Users.getData(user.id);
+                let userName = userInfo.name;
+                if (!userName) {
+                    const userInfoAPI = await api.getUserInfo(user.id);
+                    userName = userInfoAPI[user.id]?.name || "Unknown";
+                }
+                message += `\n${startIndex + index + 1}. ${userName}: ${user.count}`;
+            }
+
+
+            message += `\n\n⚠️ Reply tin nhắn này kèm:
+- Trang + số trang: để xem trang khác (ví dụ: Trang 2)
+- Kick + stt (có thể nhập nhiều, cách nhau bằng dấu cách): bot sẽ kick stt đó khỏi nhóm
+- Tag: bot sẽ tag những người không tương tác trong ngày lên!
+- Ngày tạo dữ liệu: ${threadData.Time}
+📌 Chú ý: Dùng check help để xem toàn bộ chức năng của lệnh
+(Gỡ tự động sau 60s)`;
+
+            api.sendMessage(message, threadID, (err, info) => {
+                if (err) return console.error(err);
+                global.client.handleReply.push({
+                    name: module.exports.config.name,
+                    author: senderID,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    sortedData,
+                    totalPages,
+                    Trang,
+                    type: 'day'
+                });
+                setTimeout(() => { api.unsendMessage(info.messageID) }, 60000);
+            });
+
+            threadData.day = đầu_buồi.day;
+            fs.writeFileSync(filePath, JSON.stringify(threadData, null, 4));
+        } else if (args[0] === 'reset') {
+            sì_tốp = true;
+            try {
+                fs.unlinkSync(filePath)
+                api.sendMessage(`✅ Đã đặt lại toàn bộ dữ liệu đếm tương tác của nhóm`, threadID);
+            } catch (error) {
+                api.sendMessage(`❎ Lỗi: Không thể đặt lại dữ liệu. ${error.message}`, threadID);
+            }
+            sì_tốp = false;
+        } else if (args[0] == 'name') {
+            const dataThread = (await Threads.getData(event.threadID)).threadInfo;
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('Quyền hạn????', threadID, messageID);
+
+            const threadInfo = (await Threads.getData(event.threadID)).threadInfo
+            const pr = threadInfo.participantIDs.filter(userID => !threadInfo.nicknames[userID])
+                .map((userID, index) => ({ id: userID, index }));
+
+            if (pr.length === 0) {
+                return api.sendMessage("Tất cả các thành viên đều đã có biệt danh.", threadID, messageID);
+            }
+            let message = "📋 Danh sách các thành viên chưa có biệt danh:\n";
+            for (let i = 0; i < pr.length; i++) {
+                const userID = pr[i].id;
+                let userInfo = await Users.getData(userID);
+                if (!userInfo) {
+                    const u = await api.getUserInfo(userID);
+                    userInfo = u[userID]?.name || "Unknown";
+                }
+                message += `${i + 1}. ${userInfo.name || await api.getUserInfo()}\n`;
+            }
+            message += `\n\n⚠️ Reply tin nhắn này kèm:\n📌 del + stt/all: xóa user/tất cả\ntag: gọi hồn tất cả người chưa set biệt danh!\nThả cảm xúc bất kì vào tin nhắn này để kick tất cả người chưa setname ra khỏi nhóm!`
+            return api.sendMessage(message, threadID, (err, info) => {
+                if (err) return console.error(err);
+                global.client.handleReaction.push({
+                    name: module.exports.config.name,
+                    author: senderID,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    type: 'name',
+                    pr
+                });
+                global.client.handleReply.push({
+                    name: module.exports.config.name,
+                    author: senderID,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    pr,
+                    type: 'name'
+                });
+                setTimeout(() => { api.unsendMessage(info.messageID) }, 60000);
+            });
+        } else if (args[0] == 'lọc') {
+            const dataThread = (await Threads.getData(event.threadID)).threadInfo;
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) {
+                return api.sendMessage('Bạn không đủ quyền hạn để sử dụng!', threadID, messageID);
+            }
+            const botID = api.getCurrentUserID();
+            const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+
+            if (!botIsAdmin) {
+                return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID, messageID);
+            }
+
+            const sl = parseInt(args[1]);
+            if (isNaN(sl)) {
+                return api.sendMessage("Vui lòng nhập một số hợp lệ.", threadID, messageID);
+            }
+
+            const userss = threadData.total.filter(user => user.count <= sl).map(user => user.id);
+            console.log(userss)
+
+            if (userss.length === 0) {
+                return api.sendMessage("❎ Không có thành viên nào có số tin nhắn nhỏ hơn hoặc bằng " + sl, threadID, messageID);
+            }
+            const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            for (const id of userss) {
+                await api.removeUserFromGroup(id, threadID);
+                await delay(500);
+            }
+
+            api.sendMessage(`✅ Đã lọc thành công ${userss.length}`, threadID);
+        } else if (args[0] == 'die') {
+
+            const dataThread = (await Threads.getData(event.threadID)).threadInfo;
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('Quyền hạn????', threadID, messageID);
+
+            var { userInfo, adminIDs } = await api.getThreadInfo(event.threadID);
+            var arr = [];
+
+            for (const e of userInfo) {
+                if (!e.gender) {
+                    arr.push(e.id);
+                }
+            };
+
+            adminIDs = adminIDs.map(e => e.id).some(e => e == api.getCurrentUserID());
+            if (arr.length == 0) {
+                return api.sendMessage("Trong nhóm bạn không tồn tại 'Người dùng Facebook'.", event.threadID);
+            }
+            else {
+                api.sendMessage("🔎 Nhóm bạn hiện có " + arr.length + " 'Người dùng Facebook'.\n Thả cảm xúc 👍 vào tin nhắn này để xóa list mem die", event.threadID, (err, info) => {
+                    if (err) return console.error(err);
+
+                    global.client.handleReaction.push({
+                        name: module.exports.config.name,
+                        author: senderID,
+                        messageID: info.messageID,
+                        threadID: threadID,
+                        type: 'checkDie',
+                        arr
+                    });
+
+
+                })
+            }
+        } else if (args[0] == 'tag') {
+            const dataThread = (await Threads.getData(event.threadID)).threadInfo;
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('Quyền hạn????', threadID, messageID);
+            const userss = threadData.day.filter(user => user.count === 0).map(user => user.id);
+
+            if (userss.length === 0) {
+                return api.sendMessage("Nhóm của bạn tương tác tốt!", threadID, messageID);
+            } else {
+                const mentions = userss.map(id => ({ id, tag: id }));
+
+                const message = {
+                    body: `🗣️🔥 Anh ở vùng quê khu nghèo khó đó Có trăm điều khó Muốn lên thành phố nên phải cố Sao cho bụng anh luôn no Thế rồi gặp em Những vụn vỡ đã lỡ đêm lại nhớ Nằm mơ gọi tên em\n Lên tương tác đi ${userss.length} con giời!!`,
+                    mentions: mentions
+                };
+
+                api.sendMessage(message, threadID);
+                return;
+            }
+        } else if (args[0] === 'noti') {
+            const notiDatas = JSON.parse(fs.readFileSync(fileNoti));
+            let threadIndex = notiDatas.findIndex(e => e.threadID === threadID);
+            let thread = notiDatas[threadIndex];
+            const timePattern = /^\d{2}:\d{2}:\d{2}$/;
+
+            if (!args[1]) {
+                if (thread) {
+                    api.sendMessage(`📋 Trạng thái của nhóm:\n⏰ Thời gian: ${thread.time}\nMode1: ${thread.mode1}\nMode2: ${thread.mode2}`, threadID);
+                } else {
+                    api.sendMessage("❎ Chưa có thông tin thông báo cho nhóm này.\n⚠️ Dùng check noti (nhập theo định dạng HH:MM:SS) ví dụ: check noti 00:00:00 để cài đặt time!!", threadID);
+                }
+                return;
+            }
+
+            if (args[1] === 'on') {
+                if (thread) {
+                    thread.mode1 = true;
+                    thread.mode2 = true;
+                } else {
+                    return api.sendMessage("Chưa set time", threadID);
+                }
+                api.sendMessage("✅ Đã cài đặt lại time gửi noti", threadID);
+            } else if (args[1] === 'off') {
+                if (thread) {
+                    thread.mode1 = false;
+                    thread.mode2 = false;
+                } else {
+                    thread = { threadID: threadID, time: '00:00:00', mode1: false, mode2: false };
+                    notiDatas.push(thread);
+                }
+                api.sendMessage("✅ Đã tắt chế độ noti", threadID);
+            } else if (args[1] === 'clear') {
+                if (threadIndex !== -1) {
+                    notiDatas.splice(threadIndex, 1);
+                    fs.writeFileSync(fileNoti, JSON.stringify(notiDatas, null, 4), 'utf-8');
+                    api.sendMessage("✅ Đã xóa thông tin thông báo của nhóm thành công!", threadID);
+                } else {
+                    api.sendMessage("Không có thông tin thông báo của nhóm để xóa.", threadID);
+                }
+            } else if (timePattern.test(args[1])) {
+                if (thread) {
+                    thread.time = args[1];
+                    thread.mode1 = thread.mode2;
+                } else {
+                    thread = { threadID: threadID, time: args[1], mode1: true, mode2: true };
+                    notiDatas.push(thread);
+                }
+                api.sendMessage("✅ Đã đặt lại thời gian thông báo thành công cho nhóm!", threadID);
+            } else {
+                api.sendMessage("Thời gian không hợp lệ. Vui lòng nhập theo định dạng HH:MM:SS hoặc sử dụng 'on'/'off'.", threadID);
+                return;
+            }
+
+            fs.writeFileSync(fileNoti, JSON.stringify(notiDatas, null, 4), 'utf-8');
+        } else if (args[0] == 'help') {
+            api.sendMessage(
+                `[CHECK HELP]
+
+1. check day/week/all:
+-   Xem tất cả tương tác trong ngày/tuần/tổng.
+2. check name:
+-   Xem tất cả thành viên chưa đặt biệt danh.
+3. check lọc + số tin nhắn:
+-   Lọc những thành viên có số tin nhắn ít hơn số đã chỉ định.
+4. check die:
+-   Kiểm tra những tài khoản Facebook đã bị vô hiệu hóa.
+5. check tag:
+-   Tag tất cả thành viên ít tương tác trong ngày.
+6. check noti + giờ:phút:giây/on/off/clear:
+-   Đặt thời gian gửi thông báo tương tác cuối ngày.
+-   Bật/tắt/xóa chế độ tự động gửi thông báo.
+7. check reset:
+-   Đặt lại dữ liệu tương tác của nhóm về 0.`,
+                threadID
+            );
+
+        } else if (args[0] == 'box') {
+            const request = global.nodemodule["request"];
+            const threadInfo = await Threads.getData(event.threadID);
+            const víp = threadInfo.threadInfo;
+            const totalMembers = víp.participantIDs.length;
+            const admins = await Promise.all(víp.adminIDs.map(admin => Users.getNameUser(admin.id)));
+            const adminList = admins.join('\n• ');
+
+            const numMales = víp.userInfo.filter(user => user.gender === 'MALE').length;
+            const numFemales = víp.userInfo.filter(user => user.gender === 'FEMALE').length;
+            const numBede = víp.userInfo.filter(user => user.gender !== 'MALE' && user.gender !== 'FEMALE').length;
+
+            const approvalMode = víp.approvalMode ? '✅ Bật' : '❎ Tắt';
+            const infoMessage = `
+📋 Thông tin nhóm
+━━━━━━━━━━━━━━━━━━━━━━
+Tên box: ${víp.threadName}
+ID Box: ${víp.threadID}
+Phê duyệt: ${approvalMode}
+Link join: ${víp.inviteLink.enable ? `Bật\n${víp.inviteLink.link}` : 'Tắt'}
+Emoji: ${víp.emoji ? víp.emoji : 'like'}
+━━━━━━━━━━━━━━━━━━━━━━
+👥 Thông tin thành viên
+- Tổng số thành viên: ${totalMembers}
+  👨‍🦰 Nam: ${numMales} thành viên
+  👩‍🦰 Nữ: ${numFemales} thành viên
+  👩‍❤️‍👨 Bê đê: ${numBede} thành viên
+━━━━━━━━━━━━━━━━━━━━━━
+🕵️‍♂️ Quản trị viên (${víp.adminIDs.length})
+${adminList}`;
+
+
+            if (víp.imageSrc) {
+                const callbackInfo = () => api.sendMessage({ body: infoMessage, attachment: fs.createReadStream(__dirname + '/cache/1.png') }, event.threadID, () => fs.unlinkSync(__dirname + '/cache/1.png'), event.messageID);
+                request(encodeURI(víp.imageSrc)).pipe(fs.createWriteStream(__dirname + '/cache/1.png')).on('close', callbackInfo);
+            } else {
+                api.sendMessage(infoMessage, event.threadID, event.messageID);
+            }
+        } else if (args[0] == 'clear') {
+            return api.sendMessage(`Che do chua duoc update`,threadID)
+        } else {
+            const uid = messageReply?.senderID || (mentions && Object.keys(mentions).length > 0 ? Object.keys(mentions)[0] : senderID);
+            const sortedData = quickSort(threadData.total, 'count');
+            const sortedData1 = quickSort(threadData.week, 'count');
+            const sortedData2 = quickSort(threadData.day, 'count');
+            const userIndex = sortedData.findIndex(user => user.id == uid);
+            const userIndex1 = sortedData1.findIndex(user => user.id == uid);
+            const userIndex2 = sortedData2.findIndex(user => user.id == uid);
+
+            const files = path.join(__dirname, 'cache', 'timeJoin', `${threadID}.json`);
+            let timeJoin = JSON.parse(fs.readFileSync(files));
+            const tk = timeJoin.find(item => item.id === uid);
+
+            const date = moment.tz(tk.time, 'HH:mm:ss, DD/MM/YYYY', 'Asia/Ho_Chi_Minh').toDate();
+            const cdate = moment().tz('Asia/Ho_Chi_Minh');
+            const timeDiff = cdate.diff(date);
+
+            const se = Math.floor(timeDiff / 1000) % 60; // Số giây
+            const mi = Math.floor(timeDiff / (1000 * 60)) % 60; // Số phút
+            const ho = Math.floor(timeDiff / (1000 * 60 * 60)) % 24; // Số giờ
+            const da = Math.floor(timeDiff / (1000 * 60 * 60 * 24)); // Số ngày
+
+            let dônnn = '';
+
+            if (da > 0) {
+                dônnn += `${da} ngày `;
+            }
+
+            dônnn += `${ho} giờ ${mi} phút ${se} giây`;
+
+            if (userIndex !== -1) {
+                const userCount = sortedData[userIndex].count;
+                const userCount1 = sortedData1[userIndex1]?.count || 0;
+                const userCount2 = sortedData2[userIndex2]?.count || 0;
+
+                const rank = userIndex + 1; // xếp hạng tổng
+                const rank1 = userIndex1 + 1; // xếp hạng tuần
+                const rank2 = userIndex2 + 1; // xếp hạng ngày
+
+                const ttgn = sortedData[userIndex].ttgn;
+
+                const userName = (await Users.getData(uid)).name;
+
+                const threadInfo = (await Threads.getData(event.threadID)).threadInfo;
+                let permission;
+
+                if (global.config.ADMINBOT.includes(uid)) {
+                    permission = `Admin Bot`;
+                } else if (threadInfo.adminIDs.some(i => i.id == uid)) {
+                    permission = `Quản Trị Viên`;
+                } else {
+                    permission = `Thành viên`;
+                }
+
+                const totalCount = sortedData.reduce((sum, user) => sum + user.count, 0);
+                const tl = Math.ceil((userCount / totalCount) * 100);
+
+                const message = `✨ Tương tác của ${userName}:\n` +
+                    `🪪 Chức Vụ: ${permission}\n` +
+                    `💬 Tổng số tin nhắn: ${userCount}\n` +
+                    `📅 Số tin nhắn trong tuần: ${userCount1}\n` +
+                    `📆 Số tin nhắn trong ngày: ${userCount2}\n` +
+                    `⏰ Lần cuối nhắn tin: ${ttgn ? ttgn : sortedData[userIndex].lastActive}\n` +
+                    `📊 Tỉ lệ tương tác: ${tl}%\n` +
+                    `🏆 Xếp hạng: ${rank}/${event.participantIDs.length} (tổng)\n` +
+                    `?? Xếp hạng: ${rank1}/${event.participantIDs.length} (tuần)\n` +
+                    `🥇 Xếp hạng: ${rank2}/${event.participantIDs.length} (ngày)\n` +
+                    `📝 Ngày vào nhóm: ${tk.time}\n` +
+                    `🗓️ Đã tham gia được: ${dônnn}\n` +
+                    `📌 Ngày tạo dữ liệu: ${threadData.Time}`
+
+                api.sendMessage(message, threadID);
+            } else {
+                api.sendMessage(`User ID: ${uid} not found.`, threadID);
+            }
+        }
+    }
+}
+
+module.exports.handleReply = async ({ api, event, handleReply, Users, Threads }) => {
+    const { body, threadID, messageID, senderID } = event;
+    // console.log(handleReply)
+    const args = body.trim().split(' ');
+
+    const keyword = args[0].trim().toLowerCase();
+    const values = args.slice(1).map(value => parseInt(value, 10));
+
+    let filePath = path.join(cacheDir, `${threadID}.json`);
+    const threadData = JSON.parse(fs.readFileSync(filePath));
+
+
+    if (handleReply.type == 'all') {
+        const ssss = body.split(" ");
+        if (ssss[0].toLowerCase() === "trang") {
+            const page = parseInt(ssss[1]);
+            if (isNaN(page) || page < 1 || page > handleReply.totalPages) {
+                return api.sendMessage(`Trang không hợp lệ. Vui lòng chọn từ 1 đến ${handleReply.totalPages}.`, threadID, messageID);
+            }
+            api.unsendMessage(handleReply.messageID)
+
+            const abc = (page - 1) * 75;
+            const endIndex = page * 75;
+            const messageHeader = `== [ CHECKTT ${handleReply.type.toUpperCase()} ] - Trang ${page}/${handleReply.totalPages} ==`;
+            let message = messageHeader;
+            for (const [index, user] of handleReply.sortedData.slice(abc, endIndex).entries()) {
+                const userInfo = await Users.getData(user.id);
+                let userName = userInfo.name || "Unknown";
+                message += `\n${abc + index + 1}. ${userName}: ${user.count}`;
+            }
+
+            message += `\n\n⚠️ Reply tin nhắn này kèm:
+    - Trang + số trang: để xem trang khác (ví dụ: Trang 2)
+    - Lọc + số tin: lọc người có số tin nhắn <= số nhập vào
+    - Kick + stt (cách nhau bởi khoảng trắng): kick stt đó khỏi nhóm
+    - Reset: reset tin nhắn về 0
+    - Ngày tạo dữ liệu: ${threadData.Time}
+    📌 Chú ý: Dùng check help để xem toàn bộ chức năng của lệnh
+    
+    Gỡ sau 60 giây`;
+
+            api.sendMessage(message, threadID, (err, info) => {
+                if (err) return console.error(err);
+                global.client.handleReply.push({
+                    name: module.exports.config.name,
+                    author: handleReply.author,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    sortedData: handleReply.sortedData,
+                    totalPages: handleReply.totalPages,
+                    currentPage: page,
+                    type: 'all'
+                });
+                setTimeout(() => { api.unsendMessage(info.messageID) }, 60000);
+            });
+        }
+        if (keyword === 'lọc') {
+            const dataThread = (await Threads.getData(threadID)).threadInfo
+            const botID = api.getCurrentUserID();
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('⚠️ Xin lỗi bạn không đủ quyền hạn để sử dụng!', threadID, messageID);
+            const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+
+            if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID, messageID);
+
+            const sl = parseInt(values[0], 10);
+
+            if (isNaN(sl)) return api.sendMessage("⚠️ Thiếu số", threadID, messageID);
+
+
+            const userss = threadData.total.filter(user => user.count <= sl).map(user => user.id);
+
+            if (userss.length === 0) return api.sendMessage("❎ Không có thành viên nào có số tin nhắn nhỏ hơn hoặc bằng " + sl, threadID, messageID);
+            const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            for (const id of userss) {
+                console.log(id)
+                if (id == botID) continue;
+                await api.removeUserFromGroup(id, threadID);
+                await delay(500);
+            }
+
+            api.sendMessage(`Đã lọc thành công ${userss.length}`, threadID);
+
+        } else if (keyword === 'kick') {
+            const dataThread = (await Threads.getData(threadID)).threadInfo
+            const botID = api.getCurrentUserID();
+            const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('⚠️ Xin lỗi bạn không đủ quyền hạn để sử dụng!', threadID, messageID);
+
+            if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID, messageID);
+
+            if (values.length === 0) return api.sendMessage("⚠️ Thiếu số", threadID, messageID);
+
+            if (!values.every(value => /^\d+$/.test(value))) return api.sendMessage(`Nhập số?`, threadID, messageID);
+
+            const listDel = values.map(value => parseInt(value, 10));
+
+            const Thằng_Bị_kick_list = handleReply.sortedData;
+
+            let Thằng_Ngu_Bị_Kick = [];
+            const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            for (const [index, user] of Thằng_Bị_kick_list.entries()) {
+                if (listDel.includes(index + 1)) {
+                    try {
+                        //console.log(user.id)
+                        const userInfo = await Users.getData(user.id);
+                        const userName = userInfo.name;
+                        if (user.id == botID) continue;
+                        await api.removeUserFromGroup(user.id, threadID);
+                        Thằng_Ngu_Bị_Kick.push(`${userName}`);
+                        await delay(500)
+                    } catch (error) {
+                        //console.error(`Lỗi ${user.id}: ${error.message}`);
+                    }
+                }
+            }
+            if (Thằng_Ngu_Bị_Kick.length > 0) {
+                const message = `Đã kick ${Thằng_Ngu_Bị_Kick.join(', ')}`;
+                api.sendMessage(message, threadID);
+            }
+        } else if (keyword === 'reset') {
+            sì_tốp = true;
+            try {
+                fs.unlinkSync(filePath)
+                api.sendMessage(`✅ Đã đặt lại toàn bộ dữ liệu đếm tương tác của nhóm`, threadID);
+            } catch (error) {
+                api.sendMessage(`❎ Lỗi: Không thể đặt lại dữ liệu. ${error.message}`, threadID);
+            }
+            sì_tốp = false;
+        }
+    } else if (handleReply.type == 'day') {
+        const ssss = body.split(" ");
+        if (ssss[0].toLowerCase() === "trang") {
+            const page = parseInt(ssss[1]);
+            if (isNaN(page) || page < 1 || page > handleReply.totalPages) {
+                return api.sendMessage(`Trang không hợp lệ. Vui lòng chọn từ 1 đến ${handleReply.totalPages}.`, threadID, messageID);
+            }
+            api.unsendMessage(handleReply.messageID)
+
+            const abc = (page - 1) * 75;
+            const endIndex = page * 75;
+            const messageHeader = `== [ CHECKTT ${handleReply.type.toUpperCase()} ] - Trang ${page}/${handleReply.totalPages} ==`;
+            let message = messageHeader;
+            for (const [index, user] of handleReply.sortedData.slice(abc, endIndex).entries()) {
+                const userInfo = await Users.getData(user.id);
+                let userName = userInfo.name || "Unknown";
+                message += `\n${abc + index + 1}. ${userName}: ${user.count}`;
+            }
+
+            message += `\n\n⚠️ Reply tin nhắn này kèm:
+    - Trang + số trang: để xem trang khác (ví dụ: Trang 2)
+    - Lọc + số tin: lọc người có số tin nhắn <= số nhập vào
+    - Kick + stt (cách nhau bởi khoảng trắng): kick stt đó khỏi nhóm
+    - Reset: reset tin nhắn về 0
+    - Ngày tạo dữ liệu: ${threadData.Time}
+    📌 Chú ý: Dùng check help để xem toàn bộ chức năng của lệnh
+    
+    Gỡ sau 60 giây`;
+
+            api.sendMessage(message, threadID, (err, info) => {
+                if (err) return console.error(err);
+                global.client.handleReply.push({
+                    name: module.exports.config.name,
+                    author: handleReply.author,
+                    messageID: info.messageID,
+                    threadID: threadID,
+                    sortedData: handleReply.sortedData,
+                    totalPages: handleReply.totalPages,
+                    currentPage: page,
+                    type: 'day'
+                });
+                setTimeout(() => { api.unsendMessage(info.messageID) }, 60000);
+            });
+        }
+        if (keyword === 'kick') {
+            const dataThread = (await Threads.getData(threadID)).threadInfo
+            const botID = api.getCurrentUserID();
+            const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+
+            if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID, messageID);
+
+            if (values.length === 0) return api.sendMessage("⚠️ Thiếu số", threadID, messageID);
+
+            if (!values.every(value => /^\d+$/.test(value))) return api.sendMessage(`Nhập số?`, threadID, messageID);
+
+            const listDel = values.map(value => parseInt(value, 10));
+
+            const Thằng_Bị_kick_list = handleReply.sortedData;
+
+            let Thằng_Ngu_Bị_Kick = [];
+            const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            for (const [index, user] of Thằng_Bị_kick_list.entries()) {
+                if (listDel.includes(index + 1)) {
+                    const userInfo = await Users.getData(user.id);
+                    const userName = userInfo.name;
+                    if (user.id == botID) continue;
+                    await api.removeUserFromGroup(user.id, threadID);
+                    Thằng_Ngu_Bị_Kick.push(`${userName}`);
+                    await delay(500)
+                }
+            }
+            if (Thằng_Ngu_Bị_Kick.length > 0) {
+                const message = `Đã kick ${Thằng_Ngu_Bị_Kick.join(', ')}`;
+                api.sendMessage(message, threadID);
+            }
+        } else if (keyword == 'tag') {
+            const userss = threadData.day.filter(user => user.count === 0).map(user => user.id);
+
+            if (userss.length === 0) {
+                return api.sendMessage("🏆 Nhóm của bạn tương tác tốt!", threadID, messageID);
+            } else {
+                const mentions = userss.map(id => ({ id, tag: id }));
+
+                const message = {
+                    body: `🗣️🔥 Anh ở vùng quê khu nghèo khó đó Có trăm điều khó Muốn lên thành phố nên phải cố Sao cho bụng anh luôn no Thế rồi gặp em Những vụn vỡ đã lỡ đêm lại nhớ Nằm mơ gọi tên em\n Lên tương tác đi ${userss.length} con giời!!`,
+                    mentions: mentions
+                };
+
+                api.sendMessage(message, threadID);
+                return;
+            }
+        }
+    } else if (handleReply.type == 'name') {
+        if (keyword === 'del') {
+            const dataThread = (await Threads.getData(threadID)).threadInfo
+            const botID = api.getCurrentUserID();
+            const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('⚠️ Xin lỗi bạn không đủ quyền hạn để sử dụng!', threadID, messageID);
+
+            if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID, messageID);
+
+            if (values.length === 0) return api.sendMessage("⚠️ Thiếu số", threadID, messageID);
+
+            if (!values.every(value => /^\d+$/.test(value))) return api.sendMessage(`Nhập số?`, threadID, messageID);
+
+            const listDel = values.map(value => parseInt(value, 10));
+
+            const Thằng_Bị_kick_list = handleReply.pr;
+
+            let Thằng_Ngu_Bị_Kick = [];
+            const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms));
+            for (const [index, user] of Thằng_Bị_kick_list.entries()) {
+                if (listDel.includes(index + 1)) {
+                    const userInfo = await Users.getData(user.id);
+                    const userName = userInfo.name;
+                    if (user.id == botID) continue;
+                    await api.removeUserFromGroup(user.id, threadID);
+                    Thằng_Ngu_Bị_Kick.push(`${userName}`);
+                    await delay(500)
+                }
+            }
+            let c = 1;
+            if (Thằng_Ngu_Bị_Kick.length > 0) {
+                const messages = Thằng_Ngu_Bị_Kick.map((thang, index) => `${c++}. ${thang}`).join('\n');
+                const message = `Đã xóa thành công:\n${messages}`;
+                api.sendMessage(message, threadID);
+            }
+        } else if (keyword === 'tag') {
+            const dataThread = (await Threads.getData(threadID)).threadInfo;
+            if (!dataThread.adminIDs.some(item => item.id === senderID)) return api.sendMessage('⚠️ Bạn không đủ quyền hạn', threadID);
+            const dataNickName = dataThread.nicknames;
+            const objKeys = Object.keys(dataNickName);
+            const notFoundIds = event.participantIDs.filter(id => !objKeys.includes(id));
+            const mentions = [];
+
+            let tag = '';
+            for (let i = 0; i < notFoundIds.length; i++) {
+                const id = notFoundIds[i];
+                const name = await Users.getNameUser(id);
+                mentions.push({ tag: name, id });
+
+                tag += `${i + 1}. @${name}\n`;
+            }
+
+            const bd = '📣 Các bạn vẫn chưa đặt biệt danh!!';
+
+            const message = {
+                body: `${bd}\n\n${tag}`,
+                mentions: mentions
+            };
+            api.sendMessage(message, threadID);
+            return;
+        }
+    }
+};
+module.exports.handleReaction = async function ({ api, event, Threads, handleReaction, Users }) {
+    const { threadID, userID } = event;
+    const dataThread = (await Threads.getData(threadID)).threadInfo;
+
+    if (!dataThread.adminIDs.some(item => item.id === userID)) return
+
+    if (handleReaction.type == "checkDie") {
+        const botID = api.getCurrentUserID();
+        const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+
+        if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID);
+
+        let success = 0;
+        let fail = 0;
+
+        api.sendMessage("🔄 Bắt đầu lọc..", threadID, async function () {
+            for (const e of handleReaction.arr) {
+                try {
+                    await new Promise(resolve => setTimeout(resolve, 1000));
+                    await api.removeUserFromGroup(parseInt(e), threadID);
+                    success++;
+                } catch {
+                    fail++;
+                }
+            }
+
+            api.sendMessage("✅ Đã lọc thành công " + success + " người.", threadID, function () {
+                if (fail != 0) {
+                    api.sendMessage("❎ Lọc thất bại " + fail + " người.", threadID);
+                }
+            });
+        });
+    } else if (handleReaction.type == "name") {
+        const botID = api.getCurrentUserID();
+        const botIsAdmin = dataThread.adminIDs.some(admin => admin.id === botID);
+
+        if (!botIsAdmin) return api.sendMessage("⚠️ Bot cần quyền quản trị viên để thực hiện lệnh này.", threadID);
+        for (let id of handleReaction.pr) {
+            if (id.id == botID) continue;
+            api.removeUserFromGroup(id.id, threadID);
+            await new Promise(resolve => setTimeout(resolve, 1000));
+        }
+        return api.sendMessage(`✅ Đã xóa thành công những thành viên không setname`, threadID)
+    }
+};

@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "mí yena k"
+  },
+  {
+    "role": "assistant",
+    "content": "Aroo aroo! Mí yena k là gì dzị Tài đz chưa dạy tui.  Aroo, Chu Tuấn Anh cần gấu giúp gì hông? Aroo!\n"
+  },
+  {
+    "role": "user",
+    "content": "nó cũng có liền mà"
+  },
+  {
+    "role": "assistant",
+    "content": "Aroo! \"Nó cũng có liền mà\" là sao ta?  Aroo, Chu Tuấn Anh nói rõ hơn được hông? Aroo!  Tài đz thiết kế tui hơi bị chậm hiểu. Aroo!\n"
+  }
+]

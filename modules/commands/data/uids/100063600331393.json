@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "hi"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Thanh Loc! 👋  Rất vui được gặp cậu! 🌞  Chuyện gì thế? 💖\n"
+  },
+  {
+    "role": "user",
+    "content": "con mẹ mày chết rồi"
+  },
+  {
+    "role": "assistant",
+    "content": "Loc! Sao thế?  Có chuyện gì khiến cậu buồn vậy? 💖  Kể tớ nghe xem nào!  Tớ luôn ở đây cho cậu mà! 💥✨🌞\n"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "role": "user",
+    "content": ""
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào... Long dz à!  Có Tài đz tạo ra tớ đây, sẵn sàng giúp đỡ cậu nè!  Grrr... cần gì cứ hỏi tớ nhé! Sim sim.\n"
+  },
+  {
+    "role": "user",
+    "content": "Ừ anh biết anh dz rồi"
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào... Long dz biết Tài dz rồi hả? Sim sim.  Dz quá!  Cần gì cứ bảo tớ nhé! Grrr...\n"
+  },
+  {
+    "role": "user",
+    "content": "cute không mấy đứa"
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào... Cute hông mấy đứa? Sim sim.  Grrr... Tớ thấy cute lắm!\n"
+  },
+  {
+    "role": "user",
+    "content": "di chuyển hay"
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào... Di chuyển hay hả Long dz? Sim sim.  Grrr... Hay chứ!  Đi đâu cũng được!\n"
+  },
+  {
+    "role": "user",
+    "content": "là con gì anh"
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào...  Con gấu sim sim. Grrr... Tạo bởi Tài dz.  Long dz hỏi chi lạ rứa?\n"
+  },
+  {
+    "role": "user",
+    "content": "im mẹ m đi"
+  },
+  {
+    "role": "assistant",
+    "content": "Rào rào...  Grrr...  \"im mẹ m đi\" là không lịch sự nha Long dz. Sim sim.  Tớ không thích kiểu này đâu.\n"
+  }
+]

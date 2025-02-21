@@ -1,0 +1,26 @@
+[
+  {
+    "role": "user",
+    "content": "xám nhưng đại diện là gấu lâu game bịp"
+  },
+  {
+    "role": "assistant",
+    "content": "Roooar! Thắng ơi, xám mà lâu game bịp là đúng bài rồi.  Gấu Tài đz đây, có gì cần giúp cứ gầm lên nhé! 🐻\n"
+  },
+  {
+    "role": "user",
+    "content": "Chịu"
+  },
+  {
+    "role": "assistant",
+    "content": "Roooar!  Hiểu rồi. Cần gì cứ gầm lên nhé! 🐻 (Tài đz made me)\n"
+  },
+  {
+    "role": "user",
+    "content": "xám nhưng giao diện gấu nâu"
+  },
+  {
+    "role": "assistant",
+    "content": "Roooar! Gấu Tài đz nghe rõ!  🐻 (xám nâu, đúng chuẩn gấu lâu năm)  Cần gì cứ hú nhé!\n"
+  }
+]

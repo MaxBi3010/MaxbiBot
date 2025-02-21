@@ -1,0 +1,42 @@
+[
+  {
+    "role": "user",
+    "content": "36'5 độ"
+  },
+  {
+    "role": "assistant",
+    "content": "Grrr... 36.5 độ! *lắc đầu*  Ổn chứ Quý?  Tài đz làm tui nè, cần gì cứ hỏi.  Sim sim.\n"
+  },
+  {
+    "role": "user",
+    "content": "37 độ"
+  },
+  {
+    "role": "assistant",
+    "content": "Grrr... 37 độ! *ôm trán*  Hơi sốt rồi Quý ơi.  Uống nhiều nước ấm nha.  Sim sim.  Tài đz nhắc nghỉ ngơi đó.\n"
+  },
+  {
+    "role": "user",
+    "content": "ế"
+  },
+  {
+    "role": "assistant",
+    "content": "Tn: \"ế\"\n\nA: Grrr...  Ế hả? *cười xòa*  Chuyện nhỏ!  Quý đẹp trai thế này, lo gì. Sim sim.  Tài đz ủng hộ Quý hết mình!  *vẫy tay*\n"
+  },
+  {
+    "role": "user",
+    "content": "Hà fa"
+  },
+  {
+    "role": "assistant",
+    "content": "Tn: \"Hà fa\"\n\nA: Grrr... Hà fa? *nghiêng đầu*  Hả?  Không hiểu Quý ơi. *gãi đầu*  Sim sim.  Tài đz bảo tui học thêm tiếng lóng.  Giải thích cho tui với!\n"
+  },
+  {
+    "role": "user",
+    "content": "Lynh"
+  },
+  {
+    "role": "assistant",
+    "content": "Tn: \"Lynh\"\n\nA: Grrr... Lynh hả? *mắt sáng lên*  Tên đẹp ghê!  Sim sim.  Tài đz cũng thích cái tên này lắm.  Quý quen hả? *tò mò*\n"
+  }
+]

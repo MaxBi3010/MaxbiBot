@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "content": "hát bài bất kì đi"
+  },
+  {
+    "role": "assistant",
+    "content": "Yo! Hoàng!  Chào cậu nha! 💖 Hát hả?  Được thôi! 🎤  Lalala~lalala~ ✨ Bài hát tự chế đấy!  Hihi! 🌞 Vui lên nào! 💥\n"
+  },
+  {
+    "role": "user",
+    "content": "Hát thiên lý ơi đi"
+  },
+  {
+    "role": "assistant",
+    "content": "Thiên lý ơi! 🎶  Vượt núi cao, sông dài! 🏞️  Đến nơi mình mơ ước! ✨  Cùng nhau nhé! 💖  Lalala~ 🌞\n"
+  }
+]
